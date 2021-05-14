@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./fonts/helvetica-neue-55-cufonfonts/HelveticaNeue-Light.otf');
+}

@@ -2,7 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
 import Home from './Home';
+import DiscoverKenya from './projects/DiscoverKenya';
+import About from './About';
 import { Route } from 'react-router-dom';
+
 
 
 class App extends React.Component {
@@ -30,6 +33,8 @@ class App extends React.Component {
     return (
       <>
       <Route exact path="/" component={Home}></Route>
+      <Route exact path="/Discover-Kenya" component={DiscoverKenya}></Route>
+      <Route exact path="/About" component={About}></Route>
       </>
 
     );
