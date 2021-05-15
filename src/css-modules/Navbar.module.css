@@ -1,18 +1,40 @@
 .avatar{
     height: 55px;
-    margin: 0 30px;
 }
 
 .navLinksArea{
-    margin: 0 30px;
+    margin: 0 20px;
+    
 }
 
 .navLink{
     color: #080420!important;
-    padding: 0 2rem!important;
-    font-size: 16px;
+    padding: .9 0rem!important;
+    font-size: 15px;
 }
 
 .navLink:hover{
     color: #69bfe4!important;
+}
+
+@media only screen and (min-width: 768px){
+    .avatar{
+        height: 55px;
+        margin: 0 30px;
+    }
+
+    .navLinksArea{
+        margin: 0 30px;
+    }
+
+    .navLink{
+        color: #080420!important;
+        padding: 0 3rem!important;
+        font-size: 18px;
+        letter-spacing: .02em;
+    }
+
+    .navLink:hover{
+        color: #69bfe4!important;
+    }
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -7,4 +8,86 @@
 @font-face {
     font-family: 'Helvetica Neue';
     src: url('./fonts/helvetica-neue-55-cufonfonts/HelveticaNeue-Light.otf');
+}
+
+/* mobile first */
+
+.helloTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nameTitle{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: .02em;
+}
+
+.fancyTitle{
+    font-family: 'Rouge Script', cursive;
+    font-size: 38px;
+    letter-spacing: .02em;
+
+}
+
+.missionText{
+    font-size: 15px;
+    color: #717A81;
+}
+
+.mainImg{
+    width: 300px;
+}
+
+.heroSection{
+    margin-top: 3rem;
+}
+
+
+/* For Dekstop Screens */
+
+@media only screen and (min-width: 768px){
+
+    .helloTitle{
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: .02em;
+    }
+
+    .nameTitle{
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: .02em;
+    }
+
+    .fancyTitle{
+        font-family: 'Rouge Script', cursive;
+        font-size: 60px;
+        letter-spacing: .02em;
+
+    }
+
+    .missionText{
+        font-size: 19px;
+        color: #717A81;
+    }
+
+    .mainImg{
+        width: 700px;
+        height: auto;
+    }
+
+    .heroSection{
+        margin-top: 4rem;
+    }
+
+    .nameLine{
+        width: 90%;
+        border: 1px solid #BADAE8;
+        height: 20px;
+        position: relative;
+        top: -40px;
+        opacity: 0.3;
+        background-color: #8fbbce;
+    }
 }

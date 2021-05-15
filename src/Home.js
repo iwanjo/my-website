@@ -17,18 +17,29 @@ function Home() {
         <ScrollToTop smooth color="#BADAE8"/>
         <NavbarArea />
             <Container>
+
+                <section className={styles.heroSection}>
                 <Row>
                     <Col sm={true}>
-                        <h1>Hello!</h1>
-                        <h1><span>I'm </span>Ian Wanjohi</h1>
+                        <div>
+                        <h1 className={styles.helloTitle}>Hello!</h1>
+                        <h1 className={styles.nameTitle}><span className={styles.fancyTitle}>I'm </span>Ian Wanjohi</h1>
+                        <div className={styles.nameLine}></div>
+                        <p className={styles.missionText}>Software developer specializing in integrating UX & UI Design to create sustainable solutions that positively impact people’s lives.</p>
+                        </div>
                     </Col>
 
+                    <Fade top>
                     <Col sm={true}>
-                        <img src="/i1.jpg"></img>
+                        <img src="/assets/i1.jpg" alt="Portrait Shot of Ian Wanjohi" loading="eager" className={styles.mainImg}></img>
                     </Col>
+                    </Fade>
                 </Row>
+                </section>
 
             </Container>
+
+            
 
         </>
     )
