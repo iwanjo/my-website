@@ -24,7 +24,7 @@ function Home() {
                         <div className={styles.heroSection1}>
                         <h1 className={styles.helloTitle}>Hello!</h1>
                         <h1 className={styles.nameTitle}><span className={styles.fancyTitle}>I'm </span>Ian Wanjohi</h1>
-                        <div className={styles.nameLine}></div>
+                        {/* <div className={styles.nameLine}></div> */}
                         <p className={styles.missionText}>Software developer specializing in integrating UX & UI Design to create sustainable solutions that positively impact people’s lives.</p>
                         <button className={styles.resumeBtn}>Download Resume</button>
                         <button className={styles.connectBtn}>Let's Connect</button>
@@ -44,6 +44,12 @@ function Home() {
                 </section>
 
             </Container>
+
+            <hr className={styles.horizLine}></hr>
+
+            <section className={styles.portfolio}>
+
+            </section>
 
             
 

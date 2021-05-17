@@ -13,41 +13,47 @@
 /* mobile first */
 
 .heroSection{
-    margin-left: 20px;
+    margin-left: 1.5rem;
 }
 
 .helloTitle{
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: bold;
 }
 
 .nameTitle{
-    font-size: 30px;
+    font-size: 1.7rem;
     font-weight: 500;
-    letter-spacing: .02em;
+    letter-spacing: .01em;
 }
 
 .fancyTitle{
     font-family: 'Rouge Script', cursive;
-    font-size: 38px;
-    letter-spacing: .02em;
+    font-size: 2.3rem;
+    letter-spacing: .01em;
 
 }
 
 .missionText{
-    font-size: 15px;
+    padding-top: .5rem;
+    font-size: .88rem;
     color: #60686d;
 }
 
 .mainImg{
-    width: 300px;
+    /* width: 300px; */
+    border-radius: 5px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .heroSection{
     margin-top: 3rem;
 }
 
-.nameLine{
+/* .nameLine{
     width: 54%;
     border: 1px solid #BADAE8;
     height: 10px;
@@ -55,10 +61,10 @@
     top: -30px;
     opacity: 0.3;
     background-color: #8fbbce;
-}
+} */
 
 .resumeBtn, .connectBtn{
-    font-size: 13px;
+    font-size: .8rem;
     outline: none;
     letter-spacing: .02em;
     color: #fff;
@@ -69,29 +75,42 @@
 
 .resumeBtn{
     background-color: #00a5f7;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     border: none;
-    padding: 1rem;
-    border-radius: 6px;
+    padding: .8rem;
+    border-radius: 5px;
 }
 
 .resumeBtn:hover{
     border: 1px solid #00a5f7;
     background-color: #f4f4f4;
     color: #00a5f7;
+    transition: .5s ease-out;
+
 }
 
 .connectBtn{
     border-radius: 6px;
     border: 1px solid #080420;
-    padding: 1rem;
-    color: #080420;
+    padding: .8rem 1.35rem;
+    background-color: #080420;
 }
 
 .connectBtn:hover{
-    background-color: #080420;
-    color: #f4f4f4;
+    background-color: #f4f4f4;
+    color: #080420;
+    transition: .5s ease;
+
 }
+
+
+.horizLine{
+    margin-top: 2.3rem;
+    margin-left: 2.6rem;
+    margin-right: 1.7rem;
+}
+
+
 /* For Dekstop Screens */
 
 @media only screen and (min-width: 768px){
@@ -100,6 +119,10 @@
         margin-left: -4%;
         margin-top: 3.5rem;
 
+    }
+
+    .heroSection1{
+        margin-top: 5rem;
     }
 
     .helloTitle{
@@ -142,25 +165,26 @@
         margin-right: 2rem;
         border: none;
         padding: 1rem;
-        border-radius: 6px;
+        border-radius: 5px;
     }
 
     .resumeBtn:hover{
         border: 1px solid #00a5f7;
         background-color: #f4f4f4;
         color: #00a5f7;
+        transition: .5s ease;
     }
 
     .connectBtn{
-        border-radius: 6px;
+        border-radius: 5px;
         border: 1px solid #080420;
         padding: 1rem;
-        color: #080420;
     }
 
     .connectBtn:hover{
-        background-color: #080420;
-        color: #f4f4f4;
+        background-color: #f4f4f4;
+        color: #080420;
+        transition: .5s ease;
     }
 
     .mainImg{
@@ -169,7 +193,7 @@
         
     }
 
-    .nameLine{
+    /* .nameLine{
         width: 56%;
         border: 1px solid #BADAE8;
         height: 20px;
@@ -177,5 +201,12 @@
         top: -40px;
         opacity: 0.3;
         background-color: #8fbbce;
+    } */
+
+    .horizLine{
+        margin-top: 3rem;
+        margin-left: 12.5rem;
+        margin-right: 15.2rem;
     }
+    
 }
