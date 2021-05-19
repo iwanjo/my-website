@@ -12,6 +12,8 @@
 
 /* mobile first */
 
+
+
 .heroSection{
     margin-left: 1.5rem;
 }
@@ -52,16 +54,6 @@
 .heroSection{
     margin-top: 3rem;
 }
-
-/* .nameLine{
-    width: 54%;
-    border: 1px solid #BADAE8;
-    height: 10px;
-    position: relative;
-    top: -30px;
-    opacity: 0.3;
-    background-color: #8fbbce;
-} */
 
 .resumeBtn, .connectBtn{
     font-size: .8rem;
@@ -115,47 +107,65 @@
 
 @media only screen and (min-width: 768px){
 
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+      
+      /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+    }
+       
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #00a5f7; 
+        border-radius: 5px;
+    }
+      
+      /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #007fbe; 
+    }
+
     .heroSection{
         margin-left: -4%;
         margin-top: 3.5rem;
-
     }
 
     .heroSection1{
-        margin-top: 5rem;
+        margin-top: 6rem;
     }
 
     .helloTitle{
-        font-size: 45px;
+        font-size: 3rem;
         font-weight: 500;
         letter-spacing: .02em;
     }
 
     .nameTitle{
-        font-size: 45px;
+        font-size: 3rem;
         font-weight: 500;
         letter-spacing: .02em;
     }
 
     .fancyTitle{
         font-family: 'Rouge Script', cursive;
-        font-size: 60px;
+        font-size: 4rem;
         letter-spacing: .02em;
 
     }
 
     .missionText{
-        font-size: 19px;
+        font-size: 1.1rem;
         color: #717A81;
         letter-spacing: .01em;
         
     }
 
-    .resumeBtn, .connectBtn{
-        font-size: 14px;
+    .resumeBtn{
+        font-size: .9rem;
         outline: none;
         letter-spacing: .02em;
-        /* color: #fff; */
         margin-top: 1rem;
 
     }
@@ -175,38 +185,69 @@
         transition: .5s ease;
     }
 
-    .connectBtn{
-        border-radius: 5px;
-        border: 1px solid #080420;
-        padding: 1rem;
-    }
-
-    .connectBtn:hover{
-        background-color: #f4f4f4;
-        color: #080420;
-        transition: .5s ease;
-    }
-
     .mainImg{
         height: 500px;
         width: auto;
         
     }
 
-    /* .nameLine{
-        width: 56%;
-        border: 1px solid #BADAE8;
-        height: 20px;
-        position: relative;
-        top: -40px;
-        opacity: 0.3;
-        background-color: #8fbbce;
-    } */
-
     .horizLine{
-        margin-top: 3rem;
+        margin-top: 4rem;
         margin-left: 12.5rem;
         margin-right: 15.2rem;
     }
+
+    ::selection {
+        color: #fff;
+        background: #00a5f7;
+    }
+
+    .portfolio{
+
+        margin: 4rem 12.3rem;
+    }
+
+    .latestTitle{
+        color: #00a5f7;
+        font-weight: bold;
+        font-size: 1.9rem;
+        padding-bottom: 1rem;
+        letter-spacing: .03rem;
+    }
+
+    .caseTitle{
+        color: #080420;
+        font-size: 1.6rem;
+        letter-spacing: .02rem;
+    }
+
+    .horizLine2{
+        width: 96%;
+    }
+
+    
+    
+
+    /* .trial{
+        position: absolute;
+        width: 1532.25px;
+        height: 596px;
+        left: calc(50% - 1532.25px/2 + 0.5px);
+        top: calc(50% - 596px/2);
+
+        font-family: Syne;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 150.104px;
+        line-height: 597px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #717A81;
+        opacity: .1;
+
+        mix-blend-mode: multiply;
+    } */
     
 }

@@ -8,12 +8,17 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col';
 import NavbarArea from './Navbar';
 import styles from './css-modules/Home.module.css';
+import { Helmet } from 'react-helmet';
 
 function Home() {
     
 
     return(
         <>
+        <Helmet>
+            <title>Ian Wanjohi | Home</title>
+        </Helmet>
+        
         <ScrollToTop smooth color="#BADAE8"/>
         <NavbarArea />
             <Container>
@@ -24,10 +29,8 @@ function Home() {
                         <div className={styles.heroSection1}>
                         <h1 className={styles.helloTitle}>Hello!</h1>
                         <h1 className={styles.nameTitle}><span className={styles.fancyTitle}>I'm </span>Ian Wanjohi</h1>
-                        {/* <div className={styles.nameLine}></div> */}
                         <p className={styles.missionText}>Software developer specializing in integrating UX & UI Design to create sustainable solutions that positively impact people’s lives.</p>
                         <button className={styles.resumeBtn}>Download Resume</button>
-                        <button className={styles.connectBtn}>Let's Connect</button>
 
                         </div>
                     </Col>
@@ -41,6 +44,8 @@ function Home() {
                     </Col>
                     </Fade>
                 </Row>
+
+                {/* <p className={styles.trial}>Designer & Developer</p> */}
                 </section>
 
             </Container>
@@ -48,6 +53,18 @@ function Home() {
             <hr className={styles.horizLine}></hr>
 
             <section className={styles.portfolio}>
+
+                <div className={styles.titleArea}>
+
+                    <h1 className={styles.latestTitle}>Latest Works</h1>
+                    <h3 className={styles.caseTitle}>Case Studies & Development</h3>
+
+                </div>
+
+                <h5>Include Work Here</h5>
+
+                <hr className={styles.horizLine2}></hr>
+
 
             </section>
 

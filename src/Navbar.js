@@ -10,7 +10,7 @@ function NavbarArea() {
         <>
             <Navbar collapseOnSelect expand="lg" sticky="top" className={styles.topNav}>
                 <Navbar href="#home" className={styles.brand}>
-                    <img src="/loading-logo.png" alt="Ian's Avatar" className={styles.avatar}></img>
+                    <img src="/ian-logo.png" alt="Ian's Avatar" className={styles.avatar}></img>
                 </Navbar>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
