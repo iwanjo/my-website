@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col';
 import NavbarArea from './Navbar';
 import styles from './css-modules/Home.module.css';
 import { Helmet } from 'react-helmet';
+import Footer from './Footer';
 
 function Home() {
     
@@ -21,6 +22,7 @@ function Home() {
         
         <ScrollToTop smooth color="#BADAE8"/>
         <NavbarArea />
+        {/* <img src="/assets/Oreti.png" height={100}></img> */}
 
             <section className={styles.heroSection}>
                 <div className={styles.heroContainer}>
@@ -33,26 +35,6 @@ function Home() {
                 </div>
 
             </section>
-            {/* <Container>
-
-                        <p className={styles.missionText}>Software developer specializing in integrating UX & UI Design to create sustainable solutions that positively impact people’s lives.</p>
-                        <button className={styles.resumeBtn}>Download Resume</button>
-
-                        </div>
-                    </Col>
-
-                    <Fade top>
-                    <Col sm={true}>
-                        <div className={styles.heroSection2}>
-                        <img src="/assets/i1.jpg" alt="Portrait Shot of Ian Wanjohi" loading="eager" className={styles.mainImg}></img>
-                        </div>
-                        
-                    </Col>
-                    </Fade>
-                </Row>
-                </section>
-
-            </Container> */}
 
             <hr className={styles.horizLine}></hr>
 
@@ -80,31 +62,8 @@ function Home() {
                 <h4 className={styles.phoneNumberText}>(+254) - 798 - 765 - 024</h4>
                 </div>
 
-            </section>
-
-            <section className={styles.socialMedia}>
-
-                <div className={styles.linkedinCircle}>
-                    <a href="https://www.linkedin.com/in/ian-wanjohi/" target="_blank" rel="noreferrer"><img src="/assets/linkedin-logo.png" alt="Ian Wanjohi's LinkedIn" className={styles.linkedinImage}></img></a>
-                </div>
-                <div className={styles.dribbbleCircle}>
-                    <a href="https://dribbble.com/ianwanjohi" target="_blank" rel="noreferrer"><img src="/assets/dribbble-logo.png" alt="Ian Wanjohi's Dribbble" className={styles.dribbbleImage}></img></a>
-                </div>
-                <div className={styles.githubCircle}>
-                    <a href="https://github.com/iwanjo" target="_blank" rel="noreferrer"><img src="/assets/github-logo.png" alt="Ian Wanjohi's Github" className={styles.githubImage}></img></a>
-                </div>
-
-
-                    
-
-            </section>
-
-            <div className={styles.copyRight}>
-                <p>&copy; 2021 Ian Kamanu Wanjohi</p>
-
-            </div>
-
-            
+            </section> 
+            <Footer />
 
         </>
     )

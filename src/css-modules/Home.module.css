@@ -74,7 +74,7 @@
     outline: none;
     letter-spacing: .02em;
     color: #fff;
-    background-color: #00a5f7;
+    background-image: linear-gradient(to right, #56CCF2, #00a5f7);
     border: none;
     border-radius: 5px;
     margin-top: .5rem;
@@ -86,9 +86,9 @@
 
 .resumeBtn:hover{
     border: 1px solid #00a5f7;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(to bottom, #f4f4f4, #f3f3f3);
     color: #00a5f7;
-    transition: .7s ease-out;
+    transition: .5s ease-in;
 
 }
 
@@ -157,71 +157,6 @@
     padding-bottom: 2rem;
 }
 
-.socialMedia{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2rem;   
-}
-
-.linkedinCircle{
-    background-color: #deecf3;
-    padding: .8rem;
-    height: 3.2rem;
-    width: 3.2rem;
-    border-radius: 50%; 
-    text-align: center;
-    vertical-align: middle;
-}
-
-
-.linkedinImage{
-    height: 1.25rem;
-    background: none;  
-    text-align: center;
-    vertical-align: middle;
-}
-
-.githubCircle{
-    background-color: #DBDBDB;
-    padding: .8rem;
-    height: 3.2rem;
-    width: 3.2rem;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.githubImage{
-    height: 1.5rem;
-    background: none;
-}
-
-.dribbbleCircle{
-    background-color: #FDECF2;
-    padding: .8rem;
-    height: 3.2rem;
-    width: 3.2rem;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.dribbbleImage{
-    height: 1.4rem;
-    background: none;
-}
-
-.socialMedia div{
-    margin: .4rem 1.1rem;
-}
-
-.copyRight{
-    text-align: center;
-    font-size: .95rem;
-    color: #2d3133;
-}
 
 /* For Dekstop Screens */
 
@@ -290,20 +225,13 @@
         outline: none;
         letter-spacing: .02em;
         margin-top: 1rem;
-
-    }
-
-    .resumeBtn{
-        background-color: #00a5f7;
-        margin-right: 2rem;
+        background-image: linear-gradient(to right, #56CCF2, #00a5f7);
         border: none;
-        padding: 1rem 1.4rem;
+        padding: 1rem 1.7rem;
         border-radius: 5px;
     }
 
     .resumeBtn:hover{
-        border: 1px solid #00a5f7;
-        background-color: #f4f4f4;
         color: #00a5f7;
         transition: .4s ease-in;
     }
@@ -384,78 +312,7 @@
         letter-spacing: .03em;
         color: #080420;
         padding-bottom: 2rem;
-    }
-
-    .socialMedia{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 3rem;
-        
-    }
-
-    .linkedinCircle{
-        background-color: #deecf3;
-        padding: 1.3rem;
-        height: 4.3rem;
-        width: 4.3rem;
-        border-radius: 50%; 
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    
-    .linkedinImage{
-        height: 1.5rem;
-        background: none;  
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .githubCircle{
-        background-color: #DBDBDB;
-        padding: 1.15rem;
-        height: 4.3rem;
-        width: 4.3rem;
-        border-radius: 50%;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .githubImage{
-        height: 2rem;
-        background: none;
-    }
-
-    .dribbbleCircle{
-        background-color: #FDECF2;
-        padding: 1.2rem;
-        height: 4.3rem;
-        width: 4.3rem;
-        border-radius: 50%;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .dribbbleImage{
-        height: 2rem;
-        background: none;
-    }
-
-    .socialMedia div{
-        margin: .4rem 1.1rem;
-    }
-
-    .copyRight{
-        text-align: center;
-        font-size: .95rem;
-        color: #2d3133;
-    }
-
-
-    
-    
+    } 
 
     /* .trial{
         position: absolute;
