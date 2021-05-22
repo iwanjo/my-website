@@ -15,47 +15,57 @@
 
 
 .heroSection{
-    margin-left: 1.5rem;
+
+    margin-top: 2rem;
+
+}
+
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .helloTitle{
-    font-size: 1.9rem;
-    font-weight: bold;
+    padding-top: 1rem;
+    font-size: 1.7rem;
 }
 
-.nameTitle{
-    font-size: 1.7rem;
-    font-weight: 500;
-    letter-spacing: .01em;
-}
 
 .fancyTitle{
     font-family: 'Rouge Script', cursive;
     font-size: 2.3rem;
+    font-weight: 400;
     letter-spacing: .01em;
+}
 
+.jobTitle{
+    font-size: 1.2rem;
+    width: 80%;
+    font-weight: 400;
+    text-align: center;
+    padding: .8rem 0;
 }
 
 .missionText{
-    padding-top: .5rem;
-    font-size: .88rem;
-    color: #60686d;
+    font-size: .9rem;
+    color: #586066;
+    letter-spacing: .01em; 
+    text-align: center;
+    width: 90%;
 }
 
 .mainImg{
-    /* width: 300px; */
-    border-radius: 5px;
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: auto;
     display: block;
 }
 
-.heroSection{
-    margin-top: 3rem;
-}
 
-.resumeBtn, .connectBtn{
+.resumeBtn{
     font-size: .8rem;
     outline: none;
     letter-spacing: .02em;
@@ -81,31 +91,141 @@
 
 }
 
-.connectBtn{
-    border-radius: 6px;
-    border: 1px solid #080420;
-    padding: .8rem 1.35rem;
-    background-color: #080420;
-}
-
-.connectBtn:hover{
-    background-color: #f4f4f4;
-    color: #080420;
-    transition: .5s ease;
-
-}
-
-
 .horizLine{
     margin-top: 2.3rem;
     margin-left: 2.6rem;
     margin-right: 1.7rem;
 }
 
+.portfolio{
+    margin: 2rem 2.6rem;
+}
+
+.latestTitle{
+    color: #00a5f7;
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding-bottom: .4rem;
+    letter-spacing: .02rem;
+}
+
+.caseTitle{
+    color: #080420;
+    font-size: 1.4rem;
+    letter-spacing: .02rem;
+}
+
+.horizLine2{
+    width: 96%;
+    margin-top: 4rem;
+}
+
+/* contact area */
+
+.contact{
+    margin-top: 3rem;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contactTitle{
+    font-size: 1.6rem;
+    letter-spacing: .05em;
+    color: #00a5f7;
+    font-weight: bold;
+    padding-bottom: .2rem;
+}
+
+.emailText{
+    font-size: 1.1rem;
+    color: #080420;
+    letter-spacing: .02em;
+    padding-bottom: .9rem;
+}
+
+.phoneNumberText{
+    font-size: .9rem;
+    letter-spacing: .05em;
+    color: #080420;
+    padding-bottom: 2rem;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;   
+}
+
+.linkedinCircle{
+    background-color: #deecf3;
+    padding: .8rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%; 
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.linkedinImage{
+    height: 1.25rem;
+    background: none;  
+    text-align: center;
+    vertical-align: middle;
+}
+
+.githubCircle{
+    background-color: #DBDBDB;
+    padding: .8rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.githubImage{
+    height: 1.5rem;
+    background: none;
+}
+
+.dribbbleCircle{
+    background-color: #FDECF2;
+    padding: .8rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dribbbleImage{
+    height: 1.4rem;
+    background: none;
+}
+
+.socialMedia div{
+    margin: .4rem 1.1rem;
+}
+
+.copyRight{
+    text-align: center;
+    font-size: .95rem;
+    color: #2d3133;
+}
 
 /* For Dekstop Screens */
 
 @media only screen and (min-width: 768px){
+
 
     ::-webkit-scrollbar {
         width: 7px;
@@ -128,38 +248,40 @@
     }
 
     .heroSection{
-        margin-left: -4%;
-        margin-top: 3.5rem;
-    }
-
-    .heroSection1{
-        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .helloTitle{
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 500;
         letter-spacing: .02em;
-    }
-
-    .nameTitle{
-        font-size: 3rem;
         font-weight: 500;
-        letter-spacing: .02em;
+        padding: .8rem 0;
     }
 
     .fancyTitle{
         font-family: 'Rouge Script', cursive;
-        font-size: 4rem;
+        font-size: 2.5rem;
         letter-spacing: .02em;
+        font-weight: 500;
+    }
 
+    .jobTitle{
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        padding: .8rem 0;
     }
 
     .missionText{
         font-size: 1.1rem;
-        color: #717A81;
-        letter-spacing: .01em;
-        
+        color: #586066;
+        letter-spacing: .01em; 
+        text-align: center;
+        width: 80%;
     }
 
     .resumeBtn{
@@ -174,7 +296,7 @@
         background-color: #00a5f7;
         margin-right: 2rem;
         border: none;
-        padding: 1rem;
+        padding: 1rem 1.4rem;
         border-radius: 5px;
     }
 
@@ -186,9 +308,12 @@
     }
 
     .mainImg{
-        height: 500px;
-        width: auto;
-        
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        margin: auto;
+        display: block;
+
     }
 
     .horizLine{
@@ -203,7 +328,6 @@
     }
 
     .portfolio{
-
         margin: 4rem 12.3rem;
     }
 
@@ -223,7 +347,111 @@
 
     .horizLine2{
         width: 96%;
+        margin-top: 4rem;
     }
+
+    .contact{
+        margin-top: 5rem;
+        
+    }
+
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contactTitle{
+        font-size: 1.9rem;
+        letter-spacing: .03em;
+        color: #00a5f7;
+        font-weight: bold;
+        padding-bottom: .5rem;
+    }
+
+    .emailText{
+        font-size: 1.5rem;
+        color: #080420;
+        letter-spacing: .02em;
+        padding-bottom: .8rem;
+    }
+
+    .phoneNumberText{
+        font-size: 1.2rem;
+        letter-spacing: .03em;
+        color: #080420;
+        padding-bottom: 2rem;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+        
+    }
+
+    .linkedinCircle{
+        background-color: #deecf3;
+        padding: 1.3rem;
+        height: 4.3rem;
+        width: 4.3rem;
+        border-radius: 50%; 
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    
+    .linkedinImage{
+        height: 1.5rem;
+        background: none;  
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .githubCircle{
+        background-color: #DBDBDB;
+        padding: 1.15rem;
+        height: 4.3rem;
+        width: 4.3rem;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .githubImage{
+        height: 2rem;
+        background: none;
+    }
+
+    .dribbbleCircle{
+        background-color: #FDECF2;
+        padding: 1.2rem;
+        height: 4.3rem;
+        width: 4.3rem;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .dribbbleImage{
+        height: 2rem;
+        background: none;
+    }
+
+    .socialMedia div{
+        margin: .4rem 1.1rem;
+    }
+
+    .copyRight{
+        text-align: center;
+        font-size: .95rem;
+        color: #2d3133;
+    }
+
 
     
     
