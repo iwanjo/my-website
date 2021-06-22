@@ -10,6 +10,7 @@ import NavbarArea from './Navbar';
 import styles from './css-modules/Home.module.css';
 import { Helmet } from 'react-helmet';
 import Footer from './Footer';
+import { openPopupWidget } from "react-calendly";
 
 function Home() {
     
@@ -30,7 +31,14 @@ function Home() {
                     <h1 className={styles.helloTitle}>Hello! <span className={styles.fancyTitle}>I'm</span> Ian Wanjohi</h1>
                     <h3 className={styles.jobTitle}>Software Developer & UX-UI Designer from Nairobi, Kenya</h3>
                     <p className={styles.missionText}>Software developer specializing in integrating UX & UI Design to create sustainable solutions that positively impact people’s lives.</p>
-                    <button className={styles.resumeBtn}>Download CV</button>
+                    
+                    <div className={styles.buttonGroup}>
+                        <button className={styles.resumeBtn}>Download CV</button>
+                        <a href="https://calendly.com/iwanjo/meet" target="_blank" rel="noreferrer"><button className={styles.calendlyBtn}>Let's chat on Calendly</button></a>
+
+                
+                    </div>
+
 
                 </div>
 

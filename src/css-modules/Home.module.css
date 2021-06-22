@@ -73,7 +73,7 @@
     font-size: .8rem;
     outline: none;
     letter-spacing: .02em;
-    color: #fff;
+    color: #fafafa;
     background-image: linear-gradient(to right, #56CCF2, #00a5f7);
     border: none;
     border-radius: 5px;
@@ -85,12 +85,22 @@
 }
 
 .resumeBtn:hover{
-    border: 1px solid #00a5f7;
-    background-image: linear-gradient(to bottom, #f4f4f4, #f3f3f3);
-    color: #00a5f7;
+    background-image: linear-gradient(to bottom, rgb(69, 192, 233), #00a5f7);
+    color: #fafafa;
     transition: .5s ease-in;
 
 }
+
+.calendlyBtn{
+    margin-left: 1.75rem;
+    border: none;
+    outline: none;
+}
+
+.calendlyBtn:hover{
+    color: #007fbe;
+}
+
 
 .horizLine{
     margin-top: 2.3rem;
@@ -231,11 +241,6 @@
         border-radius: 5px;
     }
 
-    .resumeBtn:hover{
-        color: #00a5f7;
-        transition: .4s ease-in;
-    }
-
     .mainImg{
         height: 180px;
         width: 180px;
@@ -314,26 +319,5 @@
         padding-bottom: 2rem;
     } 
 
-    /* .trial{
-        position: absolute;
-        width: 1532.25px;
-        height: 596px;
-        left: calc(50% - 1532.25px/2 + 0.5px);
-        top: calc(50% - 596px/2);
-
-        font-family: Syne;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 150.104px;
-        line-height: 597px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-
-        color: #717A81;
-        opacity: .1;
-
-        mix-blend-mode: multiply;
-    } */
     
 }
