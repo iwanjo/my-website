@@ -1,16 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useEffect } from 'react'
-import Fade from 'react-reveal/Fade';
+import React from 'react'
 import ScrollToTop from "react-scroll-to-top";
-import { Link }	from "react-router-dom";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col';
 import NavbarArea from './Navbar';
 import styles from './css-modules/Home.module.css';
 import { Helmet } from 'react-helmet';
 import Footer from './Footer';
-import { openPopupWidget } from "react-calendly";
 
 function Home() {
     
@@ -24,6 +18,9 @@ function Home() {
         <ScrollToTop smooth color="#BADAE8"/>
         <NavbarArea />
         {/* <img src="/assets/Oreti.png" height={100}></img> */}
+        <div className={styles.desContainer}>
+            <img src="/assets/des1.png" className={styles.des1} alt=""></img>
+        </div>
 
             <section className={styles.heroSection}>
                 <div className={styles.heroContainer}>
@@ -35,9 +32,11 @@ function Home() {
                     <div className={styles.buttonGroup}>
                         <button className={styles.resumeBtn}>Download CV</button>
                         <a href="https://calendly.com/iwanjo/meet" target="_blank" rel="noreferrer"><button className={styles.calendlyBtn}>Let's chat on Calendly</button></a>
-
-                
                     </div>
+
+
+
+                        
 
 
                 </div>

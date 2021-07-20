@@ -8,7 +8,7 @@
 
 .linkedinCircle{
     background-color: #deecf3;
-    padding: .8rem;
+    padding: .7rem;
     height: 3.2rem;
     width: 3.2rem;
     border-radius: 50%; 
@@ -26,7 +26,7 @@
 
 .githubCircle{
     background-color: #DBDBDB;
-    padding: .8rem;
+    padding: .7rem;
     height: 3.2rem;
     width: 3.2rem;
     border-radius: 50%;
@@ -60,7 +60,8 @@
 
 .copyRight{
     text-align: center;
-    font-size: .95rem;
+    font-size: .85rem;
+    padding-bottom: .7rem;
     color: #2d3133;
 }
 
@@ -147,4 +148,16 @@
         color: #2d3133;
     }
 
+}
+
+/* for screens smaller than 400px */
+
+@media only screen and (max-width: 400px){
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1.5rem;   
+    }
 }

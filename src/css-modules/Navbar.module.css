@@ -4,13 +4,14 @@
 
 .navLinksArea{
     margin: 0 20px;
-    
+    background: none;
 }
 
 .navLink{
     color: #080420!important;
     padding: .9 0rem!important;
     font-size: .9rem;
+    background: none;
 }
 
 .navLink:hover{
