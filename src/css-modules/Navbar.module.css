@@ -1,9 +1,13 @@
+.topNav{
+    background: #ffffff;
+}
+
 .avatar{
     height: 55px;
 }
 
 .navLinksArea{
-    margin: 0 20px;
+    margin: 0px 20px;
     background: none;
 }
 
@@ -22,15 +26,16 @@
 @media only screen and (min-width: 768px){
     .avatar{
         height: 55px;
-        margin: 0 30px;
+        margin: 0 px;
+        cursor: pointer;
     }
 
     .navLinksArea{
-        margin: 0 30px;
+        margin: 0 0px;
     }
 
     .navLink{
-        color: #080420!important;
+        color: #586066!important;
         padding: 0 2rem!important;
         font-size: 1rem;
         letter-spacing: .02em;

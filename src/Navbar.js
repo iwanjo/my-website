@@ -3,22 +3,25 @@ import styles from './css-modules/Navbar.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { Link } from "react-scroll";
+import { LinkContainer } from 'react-router-bootstrap';
+import { Link as Scroll } from "react-scroll";
 
 function NavbarArea() {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" sticky="top" className={styles.topNav}>
+            <LinkContainer to="/">
                 <Navbar href="#home" className={styles.brand}>
                     <img src="/ian-logo.png" alt="Ian's Avatar" className={styles.avatar}></img>
                 </Navbar>
+            </LinkContainer>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                 </Nav>
                 <Nav className={styles.navLinksArea}>
 
-                <Link
+                <Scroll
                     activeClass="active"
                     to="section1"
                     spy={true}
@@ -27,21 +30,14 @@ function NavbarArea() {
                     duration={500}
                 >
                 <Nav.Link href="#section1" className={styles.navLink}>Home</Nav.Link>
-                </Link>
+                </Scroll>
 
 
-                <Link
-                    activeClass="active"
-                    to=""
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                >
-                <Nav.Link className={styles.navLink}>About</Nav.Link>
-                </Link>
+                <LinkContainer to="/about">
+                    <Nav.Link className={styles.navLink}>About</Nav.Link>
+                </LinkContainer>
 
-                <Link
+                <Scroll
                     activeClass="active"
                     to="section3"
                     spy={true}
@@ -49,11 +45,11 @@ function NavbarArea() {
                     offset={-70}
                     duration={500}
                 >
-                <Nav.Link className={styles.navLink}>Portfolio</Nav.Link>
+                <Nav.Link className={styles.navLink}>Projects</Nav.Link>
 
-                </Link>
+                </Scroll>
 
-                <Link
+                <Scroll
                     activeClass="active"
                     to="section4"
                     spy={true}
@@ -63,7 +59,7 @@ function NavbarArea() {
                 >
 
                 <Nav.Link className={styles.navLink}>Contact</Nav.Link>
-                </Link>
+                </Scroll>
 
                 </Nav>
                 </Navbar.Collapse>

@@ -20,7 +20,7 @@ function Footer() {
         </section>
 
         <div className={styles.copyRight}>
-        <p>&copy; 2021 Ian Kamanu Wanjohi</p>
+        <p>&copy; 2021 <a href="https://www.linkedin.com/in/ian-wanjohi/" target="_blank" rel="noreferrer">Ian Kamanu Wanjohi</a></p>
 
         </div>
         </>

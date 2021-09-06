@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Home';
 import DiscoverKenya from './projects/DiscoverKenya';
 import About from './About';
+import Foresight from './projects/Foresight';
 import { Route } from 'react-router-dom';
 
 
@@ -33,8 +34,9 @@ class App extends React.Component {
     return (
       <>
       <Route exact path="/" component={Home}></Route>
-      <Route exact path="/Discover-Kenya" component={DiscoverKenya}></Route>
-      <Route exact path="/About" component={About}></Route>
+      <Route exact path="/discover-kenya" component={DiscoverKenya}></Route>
+      <Route exact path="/about" component={About}></Route>
+      <Route exact path="/foresight" component={Foresight}></Route>
       </>
 
     );
