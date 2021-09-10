@@ -75,6 +75,28 @@ export default function DiscoverKenya() {
               alt="Graph showcasing tourism numbers differences between 2019 and 2020."
             />
           </div>
+
+          <div className={styles.infoDiv}>
+
+          <h1 className={styles.infoTitle}>Project Info</h1>
+          <div className={styles.projectTable}>
+            <div className={styles.projectColumn}>
+              <h5>Role</h5>
+              <p>Designer & Engineer</p>
+            </div>
+            <div className={styles.projectColumn}>
+              <h5>Team</h5>
+              <p>Ian Wanjohi</p>
+            </div>
+            <div className={styles.projectColumn}>
+              <h5>Tools</h5>
+              <p>Figma & Flutter</p>
+            </div>
+            <div></div>
+
+          </div>
+          </div>
+
         </div>
       </section>
     </>
