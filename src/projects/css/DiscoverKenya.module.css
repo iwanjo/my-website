@@ -476,7 +476,7 @@
   }
 
   .ideateRight {
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 50%;
   }
 
@@ -493,6 +493,20 @@
   }
 
   .solutionLeft, .solutionRight{
-    width: 50%;
+    margin: 2rem 5rem;
+  }
+
+  .solutionLeft{
+    margin-top: 12rem;
+    width: 65%;
+  }
+
+  .solutionRight{
+    width: 35%;
+  }
+
+  .solutionTitle{
+    padding-bottom: 1.7rem;
+    color: #000;
   }
 }

@@ -251,9 +251,9 @@ export default function DiscoverKenya() {
 
         <div className={styles.solutionRight}>
         <img
-          src="../assets/process.png"
-          className={styles.processImg}
-          alt="Human Centered Design Process"
+          src="../assets/travellers.png"
+          className={styles.solutionImg}
+          alt="Travellers SVG"
         />
         </div>
       </div>

@@ -383,7 +383,7 @@
   .contactTitle {
     font-size: 2rem;
     letter-spacing: 0.03em;
-    color: #fff;
+    color: #000;
     font-weight: bold;
     padding-top: 3rem;
     padding-bottom: 0.5rem;
@@ -391,15 +391,14 @@
 
   .contactText{
     padding: .4rem 0;
-    color: #fff;
+    color: #000;
     font-size: 16px;
   }
 
   .emailText {
     font-size: 16px;
     color: #fff;
-    letter-spacing: 0.02em;
-    padding-bottom: 0.8rem;
+    font-weight: bold;
     text-decoration: underline;
   }
 
@@ -513,7 +512,7 @@
   .copyRight {
     font-size: 14px;
     font-weight: bold;
-    color: #fff;
+    color: #161515;
   }
 }
 
