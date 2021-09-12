@@ -135,7 +135,7 @@
 .contactTitle {
   font-size: 1.3rem;
   letter-spacing: 0.05em;
-  color: #00a5f7;
+  color: #080420;
   font-weight: bold;
   padding-bottom: 0.2rem;
 }
@@ -171,12 +171,12 @@
 .bannerImg {
   width: 100%;
   border-radius: 8px;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .projectTitle {
   padding-top: 0.5rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   font-size: 24px;
   font-weight: bold;
   color: #00a5f7;
@@ -186,6 +186,64 @@
   color: #1d1e1f;
   font-size: 13px;
   text-align: justify;
+}
+
+.linkedinCircle {
+  background-color: #deecf3;
+  padding: 0.7rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.linkedinImage {
+  height: 1.25rem;
+  background: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.githubCircle {
+  background-color: #dbdbdb;
+  padding: 0.7rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.githubImage {
+  height: 1.5rem;
+  background: none;
+}
+
+.dribbbleCircle {
+  background-color: #fdecf2;
+  padding: 0.8rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.dribbbleImage {
+  height: 1.4rem;
+  background: none;
+}
+
+.socialMedia div {
+  margin: 0.4rem 1.1rem;
+}
+
+.copyRight {
+  text-align: center;
+  font-size: 0.85rem;
+  padding-bottom: 0.7rem;
+  color: #2d3133;
 }
 
 /* For Dekstop Screens */
@@ -309,43 +367,48 @@
     padding-bottom: 2rem;
   }
 
-  .horizLine2 {
-    width: 96%;
-    margin-top: 4rem;
-  }
-
   .contact {
     margin-top: 5rem;
+    background-color: #00a5f7;
   }
 
   .contactContainer {
+    margin-left: 12.3rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .contactTitle {
-    font-size: 1.9rem;
+    font-size: 2rem;
     letter-spacing: 0.03em;
-    color: #00a5f7;
+    color: #fff;
     font-weight: bold;
+    padding-top: 3rem;
     padding-bottom: 0.5rem;
   }
 
-  .emailText {
-    font-size: 1.5rem;
-    color: #080420;
-    letter-spacing: 0.02em;
-    padding-bottom: 0.8rem;
+  .contactText{
+    padding: .4rem 0;
+    color: #fff;
+    font-size: 16px;
   }
 
-  .phoneNumberText {
-    font-size: 1.2rem;
-    letter-spacing: 0.03em;
-    color: #080420;
-    padding-bottom: 2rem;
+  .emailText {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.02em;
+    padding-bottom: 0.8rem;
+    text-decoration: underline;
   }
+
+  .socialCircles{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 1rem 0;
+  }
+
 
   /* projects */
   .projectBlock {
@@ -379,6 +442,78 @@
   .projectDescription {
     color: #1d1e1f;
     font-size: 16px;
+  }
+
+  .linkedinCircle {
+    background-color: #fff;
+    padding: 1.3rem;
+    height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .linkedinCircle:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+
+  .linkedinImage {
+    height: 1.5rem;
+    background: none;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .githubCircle {
+    background-color: #fff;
+    padding: 1.15rem;
+    height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .githubCircle:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+
+  .githubImage {
+    height: 2rem;
+    background: none;
+  }
+
+  .dribbbleCircle {
+    background-color: #fff;
+    padding: 1.15rem;
+    height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .dribbbleCircle:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+
+  .dribbbleImage {
+    height: 2rem;
+    background: none;
+  }
+
+  .socialMedia div {
+    margin: 0.4rem 1.1rem;
+  }
+
+  .copyRight {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
   }
 }
 

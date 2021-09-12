@@ -59,7 +59,7 @@ function ProjectsNavbar() {
               offset={-70}
               duration={500}
             >
-              <Nav.Link className={styles.navLink}>HCD Process</Nav.Link>
+              <Nav.Link className={styles.navLink}>Design Process</Nav.Link>
             </Scroll>
 
             <Scroll
