@@ -238,25 +238,130 @@ export default function DiscoverKenya() {
       </div>
 
       <div className={styles.solutionContainer}>
-      <div className={styles.solutionLeft}>
-        <h1 className={styles.solutionTitle}>
-          <strong>Most Popular Solution</strong>
-        </h1>
-        <p className={styles.solutionText}>
-          An application that allows tourism/safari companies, creative agencies
-          and photographers to share visual content of Kenya and create a
-          community of artistic contributors.
-        </p>
+        <div className={styles.solutionLeft}>
+          <h1 className={styles.solutionTitle}>
+            <strong>Most Popular Solution</strong>
+          </h1>
+          <p className={styles.solutionText}>
+            An application that allows tourism/safari companies, creative
+            agencies and photographers to share visual content of Kenya and
+            create a community of artistic contributors.
+          </p>
         </div>
 
         <div className={styles.solutionRight}>
-        <img
-          src="../assets/travellers.png"
-          className={styles.solutionImg}
-          alt="Travellers SVG"
-        />
+          <img
+            src="../assets/travellers.png"
+            className={styles.solutionImg}
+            alt="Travellers SVG"
+          />
         </div>
       </div>
+
+      <div className={styles.functionalSpecs}>
+        <h3>App Functional Specifications</h3>
+        <p>
+          After settling on the solution above, we had discussions with the
+          relevant stakeholders to craft out the apps functional specifications
+          and features. We also defined the applications information architecure
+          using Figjam on this{" "}
+          <a
+            href="https://www.figma.com/file/fZn8KtBsy7UacGhME344RO/Discover-Kenya-Information-Architecture?node-id=0%3A1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            link
+          </a>
+          .
+        </p>
+
+        <div className={styles.specDiv}>
+          <img
+            src="../assets/Login.png"
+            className={styles.specImg}
+            alt="Functional Specification"
+          />{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="../assets/BusinessAccount.png"
+            className={styles.specImg}
+            alt="Functional Specification"
+          />{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="../assets/SearchPhotos.png"
+            className={styles.specImg}
+            alt="Functional Specification"
+          />{" "}
+        </div>
+
+        <div className={styles.specDiv}>
+          <img
+            src="../assets/UploadPhotos.png"
+            className={styles.specImg}
+            alt="Functional Specification"
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="../assets/DownloadPhotos.png"
+            className={styles.specImg}
+            alt="Functional Specification"
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="../assets/Profile.png"
+            className={styles.specImg}
+            alt="Functional Specification"
+          />
+        </div>
+      </div>
+
+      <section className={styles.prototyping}>
+        <div className={styles.prototypingContainer}>
+          <h1 className={styles.prototypingTitle}>3. Prototyping</h1>
+
+          <p className={styles.prototypingText}>
+            For this section, I created wireframes and high-fidelity screens
+            with Figma Here are a couple of wireframe examples for Discover
+            Kenya's onboarding process. To view the wireframes and high-fidelity
+            screens, please click on the button below.
+          </p>
+
+          <a
+            href="https://www.figma.com/file/XeWTTHvzGUp3STWwnCWb8j/Discover-Kenya-Case-Study?node-id=650%3A922"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className={styles.resumeBtn}>View Figma</button>
+          </a>
+          <div>
+            <img
+              src="../assets/wireframes/onboarding1.png"
+              className={styles.onboardingImg}
+              alt="Onboarding Wireframe"
+            />{" "}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img
+              src="../assets/wireframes/onboarding1.png"
+              className={styles.onboardingImg}
+              alt="Onboarding Wireframe"
+            />{" "}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img
+              src="../assets/wireframes/onboarding1.png"
+              className={styles.onboardingImg}
+              alt="Onboarding Wireframe"
+            />
+          </div>
+
+          <h5>High Fidelity Interfaces</h5>
+          <p>
+            After wireframing, I went on to create the high fidelity screens. I
+            reviewed the information architecture and created the screens based
+            on the various interactions the user will come into contact with.
+          </p>
+        </div>
+      </section>
     </>
   );
 }

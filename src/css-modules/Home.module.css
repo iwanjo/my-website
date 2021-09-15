@@ -61,7 +61,7 @@
 }
 
 .resumeBtn {
-  font-size: 0.8rem;
+  font-size: .9rem;
   outline: none;
   letter-spacing: 0.02em;
   color: #fafafa;
@@ -114,45 +114,6 @@
   letter-spacing: 0.02rem;
 }
 
-.horizLine2 {
-  width: 96%;
-  margin-top: 4rem;
-}
-
-/* contact area */
-
-.contact {
-  margin-top: 3rem;
-}
-
-.contactContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contactTitle {
-  font-size: 1.3rem;
-  letter-spacing: 0.05em;
-  color: #080420;
-  font-weight: bold;
-  padding-bottom: 0.2rem;
-}
-
-.emailText {
-  font-size: 1.1rem;
-  color: #080420;
-  letter-spacing: 0.02em;
-  padding-bottom: 0.9rem;
-}
-
-.phoneNumberText {
-  font-size: 1rem;
-  letter-spacing: 0.05em;
-  color: #080420;
-  padding-bottom: 2rem;
-}
 /* projects */
 .projectBlock {
   margin-top: 2rem;
@@ -186,6 +147,47 @@
   color: #1d1e1f;
   font-size: 13px;
   text-align: justify;
+}
+
+/* contact area */
+
+.contact {
+  margin-top: 3rem;
+  background-image: linear-gradient(to right, #39c3f1, #26a3e2);
+}
+
+.contactContainer {
+  margin-left: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contactTitle {
+  font-size: 1.3rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+  font-weight: bold;
+  padding: 2rem 0 1rem 0;
+}
+
+.contactText{
+  font-size: 16px;
+  color: #fff;
+  margin-right: 2.3rem;
+}
+
+.emailText {
+  font-size: 1.1rem;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+.socialCircles {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 2rem 0;
 }
 
 .linkedinCircle {
@@ -240,10 +242,10 @@
 }
 
 .copyRight {
-  text-align: center;
+  margin-right: 2.3rem;
   font-size: 0.85rem;
   padding-bottom: 0.7rem;
-  color: #2d3133;
+  color: #fff;
 }
 
 /* For Dekstop Screens */
@@ -367,48 +369,6 @@
     padding-bottom: 2rem;
   }
 
-  .contact {
-    margin-top: 5rem;
-    background-color: #00a5f7;
-  }
-
-  .contactContainer {
-    margin-left: 12.3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .contactTitle {
-    font-size: 2rem;
-    letter-spacing: 0.03em;
-    color: #000;
-    font-weight: bold;
-    padding-top: 3rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .contactText{
-    padding: .4rem 0;
-    color: #000;
-    font-size: 16px;
-  }
-
-  .emailText {
-    font-size: 16px;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-  .socialCircles{
-    display: flex;
-    flex-direction: row;
-    padding: 0 0 1rem 0;
-  }
-
-
   /* projects */
   .projectBlock {
     margin-top: 2rem;
@@ -421,7 +381,7 @@
   }
 
   .rightProject {
-    padding-top: 2rem;
+    padding-top: 3.2rem;
     width: 50%;
   }
   .bannerImg {
@@ -441,6 +401,49 @@
   .projectDescription {
     color: #1d1e1f;
     font-size: 16px;
+  }
+
+  /* contact */
+
+  .contact {
+    margin-top: 4rem;
+    background-color: #00a5f7;
+  }
+
+  .contactContainer {
+    margin-left: 12.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contactTitle {
+    font-size: 2rem;
+    letter-spacing: 0.03em;
+    color: rgb(255, 251, 251);
+    font-weight: bold;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .contactText {
+    padding: 0.8rem 0;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .emailText {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .socialCircles {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 2rem 0;
   }
 
   .linkedinCircle {
@@ -512,7 +515,7 @@
   .copyRight {
     font-size: 14px;
     font-weight: bold;
-    color: #161515;
+    color: #fff;
   }
 }
 
