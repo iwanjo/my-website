@@ -378,6 +378,16 @@ export default function DiscoverKenya() {
           alt="High Fidelity Shots"
           className={styles.interfaceImg}
         />
+
+        <div className={styles.gifContainer}>
+        <h1>Discover Kenya Prototype</h1>
+        <p>Below is an animated GIF of Discover Kenya's prototype and some of the various flows the user goes through when they use our app.</p>
+          <img
+            src="../assets/interface.gif"
+            alt="Discover Kenya Clickable Prototype"
+            className={styles.interfaceGif}
+          />
+        </div>
       </section>
 
       <section className={styles.implementation} id="section4">

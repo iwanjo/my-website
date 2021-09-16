@@ -102,6 +102,8 @@
   flex-direction: column;
 }
 
+
+
 .card1,
 .card2,
 .card3,
@@ -123,17 +125,7 @@
   align-items: center;
 }
 
-.cardGroup h5 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
-}
 
-.cardText {
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 14px;
-}
 
 /* design process */
 
@@ -385,6 +377,33 @@
   font-size: 14px;
 }
 
+
+.gifContainer{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gifContainer h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: #e16e7e;
+  padding: 2rem 0 .8rem 0;
+}
+
+.gifContainer p{
+  padding: .5rem 1.5rem 1rem 1.5rem ;
+  font-size: 14px;
+  text-align: center;
+}
+
+.interfaceGif{
+  width: 100%;
+}
+
+
 .contact {
   margin-top: 3rem;
   background-image: linear-gradient(to right, #39c3f1, #26a3e2);
@@ -628,6 +647,7 @@
 
   .cardText {
     font-size: 16px;
+    text-align: center;
   }
 
   /* design process */
@@ -866,6 +886,26 @@
     font-size: 28px;
   }
 
+  .gifContainer{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gifContainer h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #e16e7e;
+    padding: 2rem 0 1rem 0;
+  }
+
+  .gifContainer p{
+    padding-bottom: 1rem;
+    font-size: 16px;
+  }
+
   .contact {
     margin-top: 4rem;
     background-color: #00a5f7;
@@ -978,6 +1018,8 @@
     font-weight: bold;
     color: #fff;
   }
+
+
 
 
 }

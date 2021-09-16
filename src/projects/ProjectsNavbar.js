@@ -42,7 +42,6 @@ function ProjectsNavbar() {
             </Scroll>
 
             <Scroll
-            activeClass="active"
             to="section2"
             spy={true}
             smooth={true}
