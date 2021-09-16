@@ -341,25 +341,123 @@ export default function DiscoverKenya() {
               alt="Onboarding Wireframe"
             />{" "}
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img
-              src="../assets/wireframes/onboarding1.png"
+              src="../assets/wireframes/onboarding2.png"
               className={styles.onboardingImg}
+              id={styles.onboarding2}
               alt="Onboarding Wireframe"
             />{" "}
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img
-              src="../assets/wireframes/onboarding1.png"
+              src="../assets/wireframes/onboarding3.png"
               className={styles.onboardingImg}
+              id={styles.onboarding3}
               alt="Onboarding Wireframe"
             />
           </div>
 
-          <h5>High Fidelity Interfaces</h5>
-          <p>
+          <h3 className={styles.interfaceTitle}>High Fidelity Interfaces</h3>
+          <p className={styles.interfaceText}>
             After wireframing, I went on to create the high fidelity screens. I
             reviewed the information architecture and created the screens based
             on the various interactions the user will come into contact with.
+            Here are some of Discover Kenya's high-fidelity shots.
           </p>
+        </div>
+        <div className={styles.interfaceImg}></div>
+        <img
+          src="../assets/interface.png"
+          alt="High Fidelity Shots"
+          className={styles.interfaceImg}
+        />
+      </section>
+
+      <section className={styles.implementation} id="section4">
+        <div className={styles.implementationContainer}>
+          <h1 className={styles.implementationTitle}>4. Implementation</h1>
+          <p>
+            Discover Kenya's implementation in Flutter is coming soon. Check out
+            the GitHub repo below for updates.
+          </p>
+          <a
+            href="https://github.com/iwanjo/discover-kenya-v2"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className={styles.resumeBtn}>GitHub Repository</button>
+          </a>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <section className={styles.contact} id="section4">
+        <div className={styles.contactContainer}>
+          <h1 className={styles.contactTitle}>Let's get in touch</h1>
+          <p className={styles.contactText}>
+            Keen to collaborate and work on impactful projects💻. Let's connect
+            via{" "}
+            <a href="mailto:iwanjohi11@gmail.com" className={styles.emailText}>
+              Email
+            </a>
+          </p>
+          <div className={styles.socialCircles}>
+            <div className={styles.linkedinCircle}>
+              <a
+                href="https://www.linkedin.com/in/ian-wanjohi/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/assets/linkedin-logo.png"
+                  alt="Ian Wanjohi's LinkedIn"
+                  className={styles.linkedinImage}
+                ></img>
+              </a>
+            </div>{" "}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div className={styles.dribbbleCircle}>
+              <a
+                href="https://dribbble.com/ianwanjohi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/assets/dribbble-logo.png"
+                  alt="Ian Wanjohi's Dribbble"
+                  className={styles.dribbbleImage}
+                ></img>
+              </a>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div className={styles.githubCircle}>
+              <a
+                href="https://github.com/iwanjo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/assets/github-logo.png"
+                  alt="Ian Wanjohi's Github"
+                  className={styles.githubImage}
+                ></img>
+              </a>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+          <div className={styles.copyRight}>
+            <p>
+              Copyright &copy; 2021 Designed and developed with care by Ian
+              Wanjohi.
+            </p>
+          </div>
         </div>
       </section>
     </>
