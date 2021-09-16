@@ -236,7 +236,7 @@ function Foresight() {
             </p>
 
             <div className={styles.interfaceContainer}>
-              <img src="../assets/home.png" alt="Foresight Homepage" />
+              <img src="../assets/foresight-banner.png" alt="Foresight Homepage" />
 
               <img src="../assets/login.png" alt="Foresight Login page" />
 

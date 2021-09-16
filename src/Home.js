@@ -39,7 +39,9 @@ function Home() {
           </p>
 
           <div className={styles.buttonGroup}>
-            <button className={styles.resumeBtn}>Download CV</button>
+            <a href="../assets/IanWanjohisCV.pdf" download target="_blank">
+              <button className={styles.resumeBtn}>Download CV</button>
+            </a>
             <a
               href="https://calendly.com/iwanjo/meet"
               target="_blank"
@@ -125,9 +127,8 @@ function Home() {
         <div className={styles.contactContainer}>
           <h1 className={styles.contactTitle}>Let's get in touch</h1>
           <p className={styles.contactText}>
-          Keen to collaborate and work on impactful projects💻.
-            {" "}
-            Let's connect via {" "}
+            Keen to collaborate and work on impactful projects💻. Let's connect
+            via{" "}
             <a href="mailto:iwanjohi11@gmail.com" className={styles.emailText}>
               Email
             </a>
