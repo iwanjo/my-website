@@ -174,7 +174,7 @@ function Foresight() {
           <div className={styles.researchCardGroup}>
             <Card
               style={{
-                width: 350,
+                width: 300,
                 height: 200,
                 background: "#21897e",
                 color: "#fff",
@@ -190,7 +190,7 @@ function Foresight() {
 
             <Card
               style={{
-                width: 350,
+                width: 300,
                 height: 200,
                 background: "#21897e",
                 color: "#fff",
@@ -206,7 +206,7 @@ function Foresight() {
 
             <Card
               style={{
-                width: 350,
+                width: 300,
                 height: 200,
                 background: "#21897e",
                 color: "#fff",

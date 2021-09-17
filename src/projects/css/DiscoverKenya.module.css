@@ -118,6 +118,12 @@
   height: 45px;
 }
 
+.cardGroup h5 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .cardText {
   text-align: center;
   padding: 1rem 0;
