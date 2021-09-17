@@ -118,6 +118,12 @@
   height: 45px;
 }
 
+.cardText {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 14px;
+}
+
 .centerImg {
   padding: 2rem;
   display: flex;
