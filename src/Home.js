@@ -64,6 +64,37 @@ function Home() {
         <div className={styles.projectBlock}>
           <div className={styles.leftProject}>
             <img
+              src="../assets/sankofa-banner.png"
+              className={styles.bannerImg}
+              alt="Sankofa Banner"
+            ></img>
+          </div>
+
+          <div className={styles.rightProject}>
+            <h1 className={styles.projectTitle}>Sankofa</h1>
+            <p className={styles.projectDescription}>
+              Sankofa is a mobile application that uses geolocation to tell
+              consumers the nearest drop off point (charity homes, recycling
+              company or thrift company) for their unwanted clothes. There are
+              two interfaces for the application. ie. consumer side and merchant
+              side.{" "}
+            </p>
+            <Link to="#">
+              <button className={styles.resumeBtn}>Coming Soon</button>
+            </Link>
+            {/* <a
+              href="https://foresight-africa.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className={styles.calendlyBtn}>Website Link</button>
+            </a> */}
+          </div>
+        </div>
+
+        <div className={styles.projectBlock}>
+          <div className={styles.leftProject}>
+            <img
               src="../assets/dk-banner.png"
               className={styles.bannerImg}
               alt="Discover Kenya Banner"
