@@ -75,9 +75,7 @@ function Home() {
             <p className={styles.projectDescription}>
               Sankofa is a mobile application that uses geolocation to tell
               consumers the nearest drop off point (charity homes, recycling
-              company or thrift company) for their unwanted clothes. There are
-              two interfaces for the application. ie. consumer side and merchant
-              side.{" "}
+              company or thrift company) for their unwanted clothes.{" "}
             </p>
             <Link to="#">
               <button className={styles.resumeBtn}>Coming Soon</button>

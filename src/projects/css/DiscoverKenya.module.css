@@ -580,7 +580,7 @@
   }
 
   .challengeDiv {
-    margin: 0 5rem;
+    margin: 2rem 10rem 1rem 10rem;
   }
 
   .challengeTitle {
@@ -697,14 +697,14 @@
   }
 
   .defineContainer {
-    margin: 2rem 0 5rem 5rem;
+    margin: 2rem 10rem 1rem 10rem;
     display: flex;
     flex-direction: row;
   }
 
   .defineLeft {
-    margin-top: 5rem;
-    width: 45%;
+    margin-top: 4rem;
+    width: 48%;
   }
 
   .defineLeft ul {
@@ -724,7 +724,7 @@
   }
 
   .defineRight {
-    width: 55%;
+    width: 52%;
   }
 
   .personaImg {
@@ -734,7 +734,7 @@
   /* ideate */
 
   .ideateContainer {
-    margin: 4rem 0 5rem 5rem;
+    margin: 4rem 10rem 1rem 10rem;
     padding-bottom: 4rem;
     display: flex;
     flex-direction: row;
@@ -754,6 +754,7 @@
     padding: 0.6rem 5rem 0 0;
     text-align: justify;
     font-size: 16px;
+    width: 100%;
   }
 
   .ideateRight {
@@ -776,16 +777,16 @@
 
   .solutionLeft,
   .solutionRight {
-    margin: 3rem 5rem;
+    margin: 5rem 10rem;
   }
 
   .solutionLeft {
     margin-top: 12rem;
-    width: 65%;
+    width: 60%;
   }
 
   .solutionRight {
-    width: 35%;
+    width: 40%;
   }
 
   .solutionRight img {
@@ -800,12 +801,13 @@
 
   .solutionText {
     font-size: 20px;
+    text-align: left;
   }
 
   /* Functional Specs */
 
   .functionalSpecs {
-    margin: 3rem 5rem;
+    margin: 4rem 10rem 1rem 10rem;
   }
 
   .functionalSpecs h3 {
@@ -836,7 +838,7 @@
   }
 
   .prototypingContainer {
-    margin: 5rem 5rem 2rem 5rem;
+    margin: 4rem 10rem 1rem 7rem;
     padding: 5rem 0 2rem 0;
   }
 
@@ -888,7 +890,7 @@
 
   /* implementation section */
   .implementationContainer{
-    margin: 7rem 5rem;
+    margin: 4rem 10rem 1rem 10rem;
   }
 
   .implementationTitle {
@@ -924,7 +926,7 @@
   }
 
   .contactContainer {
-    margin-left: 5rem;
+    margin: 4rem 10rem 1rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

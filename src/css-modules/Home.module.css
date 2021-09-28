@@ -281,10 +281,11 @@
 
   .helloTitle {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 0.02em;
     font-weight: 500;
     padding-top: 1.5rem;
+    
   }
 
   .fancyTitle {
@@ -381,7 +382,7 @@
   }
 
   .rightProject {
-    padding-top: 3.2rem;
+    padding-top: 3rem;
     width: 50%;
   }
   .bannerImg {
