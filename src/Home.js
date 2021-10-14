@@ -31,16 +31,16 @@ function Home() {
             Hello 👋🏾 <span className={styles.fancyTitle}>I'm</span> Ian Wanjohi
           </h1>
           <h3 className={styles.jobTitle}>
-            Software Developer & UX-UI Designer
+            User Experience and Product Designer
           </h3>
           <p className={styles.missionText}>
-            Software developer specializing in integrating UX & UI Design to
-            create sustainable solutions that positively impact people’s lives.
+            Specializing in using human-centered design and technology to create sustainable solutions that positively impact people's
+            lives.
           </p>
 
           <div className={styles.buttonGroup}>
-            <a href="../assets/IanWanjohisCV.pdf" download target="_blank">
-              <button className={styles.resumeBtn}>Download CV</button>
+            <a href="https://drive.google.com/file/d/1vFfdLAglkU9s6Af85Eo99tvCuOsf-Zux/view?usp=sharing" target="_blank" rel="noreferrer">
+              <button className={styles.resumeBtn}>View Resume</button>
             </a>
             <a
               href="https://calendly.com/iwanjo/meet"

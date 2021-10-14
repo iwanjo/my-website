@@ -33,9 +33,9 @@ function NavbarArea() {
                 </Scroll>
 
 
-                {/* <LinkContainer to="/about">
+                <LinkContainer to="/about">
                     <Nav.Link className={styles.navLink}>About</Nav.Link>
-                </LinkContainer> */}
+                </LinkContainer>
 
                 <Scroll
                     activeClass="active"

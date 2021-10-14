@@ -4,6 +4,7 @@ import styles from "./css/DiscoverKenya.module.css";
 import ProjectsNavbar from "./ProjectsNavbar";
 import ScrollToTop from "react-scroll-to-top";
 import Carousel from "react-bootstrap/Carousel";
+import { Card } from "antd";
 
 export default function DiscoverKenya() {
   return (
@@ -134,14 +135,16 @@ export default function DiscoverKenya() {
           </h2>
           <p className={styles.defineText}>
             To better understand my assumptions, validate the research goal, and
-            empathize with the people in this field, I conducted 12 interviews
-            with the following user groups.
+            empathize with the people in this field, I conducted 12
+            semi-structured interviews and sent out an online survey to the
+            following user groups.
           </p>
           <ul>
-            <li>Tour guides</li>
             <li>Safari/tour operators</li>
             <li>Small business owners near tourist spots</li>
             <li>Tourists</li>
+            <li>Tour guides</li>
+            <li>Photographers</li>
           </ul>
 
           <p className={styles.defineText}>
@@ -149,10 +152,9 @@ export default function DiscoverKenya() {
             reflected in the user personas to the right.
           </p>
           <p className={styles.defineText}>
-            <strong>Research Goal:</strong> The research goal was to understand
-            the perceptions of the different stakeholders in the tourism market
-            and how we could innovate for a solution that addresses their
-            issues.
+            <strong>Research Goal:</strong> To understand the perceptions of the
+            different stakeholders in the tourism market and how we could
+            innovate for a solution that addresses their issues.
           </p>
         </div>
 
@@ -173,6 +175,111 @@ export default function DiscoverKenya() {
               />
             </Carousel.Item>
           </Carousel>
+        </div>
+      </div>
+
+      <div className={styles.researchFindings}>
+        <h1 className={styles.researchFindingsTitle}>Research Debrief</h1>
+        <div className={styles.researchCardGroup}>
+          <Card
+            style={{
+              width: 300,
+              height: 200,
+              background: "#e16e7e",
+              color: "#fff",
+              textAlign: "center",
+            }}
+            className={styles.researchCard}
+          >
+            <p>
+              “Lack of a united front and community aspect in dealing with
+              COVID-19 as an industry at the beginning. Only when we come
+              together can we overcome the challenges.”
+            </p>
+          </Card>
+
+          <Card
+            style={{
+              width: 300,
+              height: 200,
+              background: "#e16e7e",
+              color: "#fff",
+              textAlign: "center",
+            }}
+            className={styles.researchCard}
+          >
+            <p>
+              “Safety measures were put in place to protect travellers and
+              workers, however there were plenty of occasions we on the frontline felt
+              compromised. ”
+            </p>
+          </Card>
+
+          <Card
+            style={{
+              width: 300,
+              height: 200,
+              background: "#e16e7e",
+              color: "#fff",
+              textAlign: "center",
+            }}
+            className={styles.researchCard}
+          >
+            <p>
+              “Keen to explore what Kenya has to offer, however I don’t know how
+              to and where to go to do that.”
+            </p>
+          </Card>
+        </div>
+        <div className={styles.researchCardGroup}>
+          <Card
+            style={{
+              width: 300,
+              height: 200,
+              background: "#e16e7e",
+              color: "#fff",
+              textAlign: "center",
+            }}
+            className={styles.researchCard}
+          >
+            <p>
+              “Hard to gain leads and convert clients when you’re new in the
+              tourism / creative field and lacking connections.”
+            </p>
+          </Card>
+
+          <Card
+            style={{
+              width: 300,
+              height: 200,
+              background: "#e16e7e",
+              color: "#fff",
+              textAlign: "center",
+            }}
+            className={styles.researchCard}
+          >
+            <p>
+              “Lack of a community approach to this industry, hard to connect
+              with others in the field.”
+            </p>
+          </Card>
+
+          <Card
+            style={{
+              width: 300,
+              height: 200,
+              background: "#e16e7e",
+              color: "#fff",
+              textAlign: "center",
+            }}
+            className={styles.researchCard}
+          >
+            <p>
+              “Magical Kenya means showcasing the beauty of Kenya with pride and
+              confidence. There are numerous areas people have yet to see,
+              hidden gems I want to explore and showcase.”
+            </p>
+          </Card>
         </div>
       </div>
 
@@ -380,8 +487,11 @@ export default function DiscoverKenya() {
         />
 
         <div className={styles.gifContainer}>
-        <h1>Discover Kenya Prototype</h1>
-        <p>Below is an animated GIF of Discover Kenya's prototype and some of the various flows the user goes through when they use our app.</p>
+          <h1>Discover Kenya Prototype</h1>
+          <p>
+            Below is an animated GIF of Discover Kenya's prototype and some of
+            the various flows the user goes through when they use our app.
+          </p>
           <img
             src="../assets/interface.gif"
             alt="Discover Kenya Clickable Prototype"

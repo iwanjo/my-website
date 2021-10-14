@@ -79,7 +79,7 @@ function Foresight() {
                 />
               </div>
               <h5>Duration</h5>
-              <p className={styles.cardText}>June 2021 - July 2021</p>
+              <p className={styles.cardText}>June 2021 - Present</p>
             </div>
           </div>
 
@@ -158,6 +158,12 @@ function Foresight() {
         </div>
 
         <div className={styles.researchContainer}>
+          <h2 className={styles.researchTitle}>Importance of Drone Technology</h2>
+          <p className={styles.researchText}>
+          In numerous regions in Africa, drones are steadily being adopted in large-scale precision farming operations. Agriculture primarily serves as the backbone of the continent’s economic activities. By embracing this technology, there will be an increase in the efficiency and effectiveness of farming operations thanks to in-depth data analytics providing critical insights into crop health and solutions to existing bottlenecks in their process(Pinguet, 2021). The data obtained from drone surveys help farmers plan their harvesting and treatments to achieve the most effective yield amounts, which may help increase their profitability(Croptracker - Drone Technology In Agriculture, 2021).
+
+          </p>
+
           <h2 className={styles.researchTitle}>
             Understanding the different stakeholders in the agricultural
             industry.
@@ -236,7 +242,10 @@ function Foresight() {
             </p>
 
             <div className={styles.interfaceContainer}>
-              <img src="../assets/foresight-banner.png" alt="Foresight Homepage" />
+              <img
+                src="../assets/foresight-banner.png"
+                alt="Foresight Homepage"
+              />
 
               <img src="../assets/login.png" alt="Foresight Login page" />
 
