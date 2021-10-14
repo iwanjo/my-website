@@ -384,7 +384,7 @@ export default function DiscoverKenya() {
 
         <div className={styles.specDiv}>
           <img
-            src="../assets/Login.png"
+            src="../assets/LoginSpec.png"
             className={styles.specImg}
             alt="Functional Specification"
           />{" "}
