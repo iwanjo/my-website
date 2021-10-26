@@ -5,6 +5,7 @@ import Home from './Home';
 import DiscoverKenya from './projects/DiscoverKenya';
 import About from './About';
 import Foresight from './projects/Foresight';
+import Sankofa from './projects/Sankofa';
 import { Route } from 'react-router-dom';
 
 
@@ -37,6 +38,8 @@ class App extends React.Component {
       <Route exact path="/discover-kenya" component={DiscoverKenya}></Route>
       <Route exact path="/about" component={About}></Route>
       <Route exact path="/foresight" component={Foresight}></Route>
+      <Route exact path="/sankofa" component={Sankofa}></Route>
+
       </>
 
     );

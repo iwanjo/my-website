@@ -77,16 +77,9 @@ function Home() {
               consumers the nearest drop off point (charity homes, recycling
               company or thrift company) for their unwanted clothes.{" "}
             </p>
-            <Link to="#">
-              <button className={styles.resumeBtn}>Coming Soon</button>
+            <Link to="/sankofa">
+              <button className={styles.resumeBtn}>View Project</button>
             </Link>
-            {/* <a
-              href="https://foresight-africa.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className={styles.calendlyBtn}>Website Link</button>
-            </a> */}
           </div>
         </div>
 
