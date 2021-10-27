@@ -77,8 +77,8 @@ function Home() {
               consumers the nearest drop off point (charity homes, recycling
               company or thrift company) for their unwanted clothes.{" "}
             </p>
-            <Link to="/sankofa">
-              <button className={styles.resumeBtn}>View Project</button>
+            <Link to="#">
+              <button className={styles.resumeBtn}>Coming Soon</button>
             </Link>
           </div>
         </div>

@@ -35,6 +35,11 @@
   color: #000;
 }
 
+a{
+  color: #38b5ba;
+  font-weight: bold;
+}
+
 .leftContainer {
   margin-left: 2rem;
   width: 100%;
@@ -63,7 +68,7 @@
 }
 
 .challengeTitle {
-  color: #e16e7e;
+  color: #41a695;
   font-weight: bold;
   font-size: 24px;
 }
@@ -81,8 +86,8 @@
 }
 
 .challengeImg {
-  margin: 0.3rem 0 2rem 0;
-  height: 300px;
+  margin: 1rem 0rem;
+  height: 15vh;
 }
 
 .scopeTitle {
@@ -96,8 +101,6 @@
   display: flex;
   flex-direction: column;
 }
-
-
 
 .card1,
 .card2,
@@ -130,6 +133,116 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.problemContainer {
+  margin-top: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8eeea;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.problemContainer img{
+  margin: .7rem 0;
+  height: 50px;
+  width: auto;
+}
+
+.problemTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.problemText {
+  padding-top: 1rem;
+  font-size: 15.5px;
+  text-align: center;
+  width: 80%;
+  color: #000;
+}
+
+.design {
+  margin: 3rem 0;
+}
+
+.designContainer {
+  margin: 1.5rem 2rem;
+}
+
+.designTitle {
+  font-weight: bold;
+  color: #21897e;
+  font-size: 24px;
+  padding-bottom: 0.5rem;
+}
+
+.designText {
+  font-size: 14px;
+}
+
+.defineContainer {
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.defineLeft {
+  margin: 2rem 0 2rem 0;
+  width: 100%;
+}
+
+.defineTitle {
+  padding-bottom: 0.75rem;
+  font-size: 24px;
+  color: #21897e;
+}
+
+.defineText {
+  padding: 0.5rem 1rem 0 0;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.defineRight {
+  width: 100%;
+}
+
+.personaImg {
+  width: 100%;
+}
+
+.researchContainer {
+  margin: 2rem 2rem;
+}
+
+.researchTitle {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.researchText {
+  font-size: 14px;
+  padding-bottom: 1rem;
+}
+
+.researchCardGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.researchCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
 }
 
 
@@ -216,6 +329,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   .challengeImg {
@@ -279,8 +393,113 @@
     text-align: center;
   }
 
-  .cardText a{
+  a{
       color: #38b5ba;
       font-weight: bold;
+  }
+
+  .problemContainer {
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8eeea;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .problemContainer img{
+    margin: .7rem 0;
+    height: 80px;
+    width: auto;
+  }
+
+  .problemTitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 1.5rem;
+  }
+
+  .problemText {
+    font-size: 18px;
+    text-align: center;
+    width: 60%;
+    color: #000;
+  }
+
+  .designContainer {
+    margin: 4rem 10rem 1rem 10rem;
+  }
+
+  .designTitle {
+    font-weight: bold;
+    color: #21897e;
+    font-size: 28px;
+    padding-bottom: 0.8rem;
+  }
+
+  .designText {
+    font-size: 16px;
+  }
+
+  .defineContainer {
+    margin: 4rem 10rem 1rem 10rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .defineLeft {
+    margin: 2rem 0 3rem 0;
+    width: 48%;
+  }
+
+  .defineTitle {
+    padding-bottom: 1rem;
+    font-size: 28px;
+    color: #21897e;
+  }
+
+  .defineText {
+    padding: 0.5rem 4rem 0 0;
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .defineRight {
+    width: 52%;
+  }
+
+  .personaImg {
+    width: 100%;
+  }
+
+  .researchContainer {
+    margin: 1rem 10rem 1rem 10rem;
+  }
+
+  .researchTitle {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+
+  .researchText {
+    font-size: 16px;
+    padding-bottom: 1.5rem;
+  }
+
+  .researchCardGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .researchCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
