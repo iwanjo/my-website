@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import styles from "./css/Sankofa.module.css";
 import ProjectsNavbar from "./ProjectsNavbar";
 import ScrollToTop from "react-scroll-to-top";
-import { Card } from "antd";
 
 class Sankofa extends React.Component {
   // componentDidMount() {
