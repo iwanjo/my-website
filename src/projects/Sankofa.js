@@ -225,7 +225,7 @@ class Sankofa extends React.Component {
 
                 <p>
                   Due to the project's nature, the onsite research involved
-                  different categories of participants. 3 main stakeholders were
+                  different categories of participants. Three main stakeholders were
                   identified within 4 different locations, for a total of 11
                   interviews shown below{" "}
                 </p>
