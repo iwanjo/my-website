@@ -287,8 +287,8 @@ class Sankofa extends React.Component {
                     >
                       <p>
                         “Young & educated consumers are aware & concerned about
-                        the ecological impact of clothing, but mostly don't know how to
-                        contribute to the change.”
+                        the ecological impact of clothing, but mostly don't know
+                        how to contribute to the change.”
                       </p>
                     </Card>
 
@@ -372,6 +372,54 @@ class Sankofa extends React.Component {
                         because they do not personally know the 1st owner.”
                       </p>
                     </Card>
+                  </div>
+                </div>
+
+                <h5 className={styles.researchTitle}>Creative Workshop</h5>
+                <p>
+                  A creative workshop was held to share creative ideas and
+                  brainstorm possible solutions to implement based on the
+                  analysis and information synthesis. Three opportunity areas
+                  were identified:
+                </p>
+                <div className={styles.cardGroup}>
+                  <div className={styles.workshopCards}>
+                    <div className={styles.card1}>
+                      <div className={styles.centerImg}>
+                        <img
+                          src="../assets/workshop1.png"
+                          alt="Dispose Safely"
+                        />
+                      </div>
+                      <h5>How to properly dispose of textile waste safely?</h5>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div className={styles.card2}>
+                      <div className={styles.centerImg}>
+                        <img
+                          src="../assets/workshop2.png"
+                          alt="Consumers and Technology"
+                        />
+                      </div>
+                      <h5>
+                        {" "}
+                        How can consumers play a role in reducing clothing
+                        waste?
+                      </h5>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div className={styles.card3}>
+                      <div className={styles.centerImg}>
+                        <img
+                          src="../assets/workshop3.png"
+                          alt="Raise Awareness"
+                        />
+                      </div>
+                      <h5>
+                        How to raise awareness in thrift producing countries?
+                      </h5>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </div>
                 </div>
               </div>

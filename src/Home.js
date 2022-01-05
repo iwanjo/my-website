@@ -35,7 +35,7 @@ function Home() {
           </h3>
           <p className={styles.missionText}>
             Specializing in using human-centered design and technology to create
-            sustainable, data-driven solutions that positively impact people's lives.
+            data-driven solutions that positively impact people's lives.
           </p>
 
           <div className={styles.buttonGroup}>
