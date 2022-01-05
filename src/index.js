@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'antd/dist/antd.css';
+import './fonts/GT-Walsheim-Regular/GT Walsheim Regular.ttf'
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+
 
 ReactDOM.render(
   <BrowserRouter>

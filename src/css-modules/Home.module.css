@@ -1,9 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Urbanist&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+
+
 * {
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+  font-family: "GTWalsheim";
 }
 
 /* mobile first */
@@ -61,7 +64,8 @@
 }
 
 .resumeBtn {
-  font-size: .9rem;
+  font-size: 0.9rem;
+  font-weight: bold;
   outline: none;
   letter-spacing: 0.02em;
   color: #fafafa;
@@ -172,7 +176,7 @@
   padding: 2rem 0 1rem 0;
 }
 
-.contactText{
+.contactText {
   font-size: 16px;
   color: #fff;
   margin-right: 2.3rem;
@@ -284,8 +288,7 @@
     font-weight: bold;
     letter-spacing: 0.02em;
     font-weight: 500;
-    padding-top: 1.5rem;
-    
+    padding-top: 2rem;
   }
 
   .fancyTitle {
@@ -311,11 +314,12 @@
 
   .resumeBtn {
     font-size: 0.9rem;
+    font-weight: bold;
     outline: none;
     letter-spacing: 0.02em;
-    margin-top: 1rem;
+    margin-top: .75rem;
     border: none;
-    padding: 1rem 2.1rem;
+    padding: .85rem 2rem;
     border-radius: 8px;
   }
 
@@ -386,7 +390,7 @@
     width: 50%;
   }
   .bannerImg {
-    width: 90.5%;
+    width: 87.5%;
     border-radius: 8px;
     margin-bottom: 2rem;
   }
@@ -424,18 +428,19 @@
     letter-spacing: 0.03em;
     color: rgb(255, 251, 251);
     font-weight: bold;
-    padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 2.7rem;
+    padding-bottom: 0.4rem;
   }
 
   .contactText {
     padding: 0.8rem 0;
     color: #fff;
     font-size: 16px;
+    font-weight: bold;
   }
 
   .emailText {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     font-weight: bold;
     text-decoration: underline;

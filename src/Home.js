@@ -28,18 +28,22 @@ function Home() {
             className={styles.mainImg}
           ></img>
           <h1 className={styles.helloTitle}>
-            Hello 👋🏾 <span className={styles.fancyTitle}>I'm</span> Ian Wanjohi
+            Hello 👋🏾 I'm Ian Wanjohi
           </h1>
           <h3 className={styles.jobTitle}>
             User Experience and Product Designer
           </h3>
           <p className={styles.missionText}>
-            Specializing in using human-centered design and technology to create sustainable solutions that positively impact people's
-            lives.
+            Specializing in using human-centered design and technology to create
+            sustainable, data-driven solutions that positively impact people's lives.
           </p>
 
           <div className={styles.buttonGroup}>
-            <a href="https://drive.google.com/file/d/1vFfdLAglkU9s6Af85Eo99tvCuOsf-Zux/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a
+              href="https://drive.google.com/file/d/1vFfdLAglkU9s6Af85Eo99tvCuOsf-Zux/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className={styles.resumeBtn}>View Resume</button>
             </a>
             <a
@@ -64,6 +68,59 @@ function Home() {
         <div className={styles.projectBlock}>
           <div className={styles.leftProject}>
             <img
+              src="../assets/aura-banner.jpg"
+              className={styles.bannerImg}
+              id={styles.auraBanner}
+              alt="Aura Banner"
+            ></img>
+          </div>
+
+          <div className={styles.rightProject}>
+            <h1 className={styles.projectTitle}>Aura</h1>
+            <p className={styles.projectDescription}>
+              Aura is a mobile application that offers a wide range of affordable
+              mental healthcare support services to students and the general
+              community, including affordable therapy sessions, community
+              support spaces, and a chatbot.
+            </p>
+            <Link to="/">
+              <button className={styles.resumeBtn}>Coming Soon</button>
+            </Link>
+            <a
+              href="https://github.com/iwanjo/aura_flutter"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className={styles.calendlyBtn}>GitHub Repo</button>
+            </a>
+          </div>
+        </div>
+
+        <div className={styles.projectBlock}>
+          <div className={styles.leftProject}>
+            <img
+              src="../assets/Intouch-banner.png"
+              className={styles.bannerImg}
+              id={styles.auraBanner}
+              alt="InTouch Banner"
+            ></img>
+          </div>
+
+          <div className={styles.rightProject}>
+            <h1 className={styles.projectTitle}>InTouch Finance Platform</h1>
+            <p className={styles.projectDescription}>
+              An online platform enabling early stage ventures and entrepreneurs in Africa access to funding/investment and training opportunities. The platform also provides investment partners with a view of African ventures they can invest in.
+            </p>
+            <Link to="/">
+              <button className={styles.resumeBtn}>Coming Soon</button>
+            </Link>
+           
+          </div>
+        </div>
+
+        <div className={styles.projectBlock}>
+          <div className={styles.leftProject}>
+            <img
               src="../assets/sankofa-banner.png"
               className={styles.bannerImg}
               alt="Sankofa Banner"
@@ -77,8 +134,8 @@ function Home() {
               consumers the nearest drop off point (charity homes, recycling
               company or thrift company) for their unwanted clothes.{" "}
             </p>
-            <Link to="#">
-              <button className={styles.resumeBtn}>Coming Soon</button>
+            <Link to="/sankofa">
+              <button className={styles.resumeBtn}>View Project</button>
             </Link>
           </div>
         </div>
@@ -117,7 +174,7 @@ function Home() {
             <img
               src="../assets/foresight-banner.png"
               className={styles.bannerImg}
-              alt="Discover Kenya Banner"
+              alt="Foresight Banner"
             ></img>
           </div>
 
@@ -207,7 +264,6 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* <Footer /> */}
     </>
   );
 }
