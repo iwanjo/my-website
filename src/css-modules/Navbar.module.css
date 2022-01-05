@@ -12,16 +12,13 @@
 }
 
 .navLink{
-    color: #080420!important;
+    color: #1d1c1c!important;
     padding: 1 0rem!important;
     font-size: 1rem;
     background: none;
+    font-weight: 500;
 }
 
-.navLink:hover{
-    color: #69bfe4!important;
-    transition: .35s ease-in-out;
-}
 
 @media only screen and (min-width: 768px){
     .avatar{
@@ -35,13 +32,15 @@
     }
 
     .navLink{
-        color: #586066!important;
+        color: #1d1c1c!important;
         padding: 0 2rem!important;
+        font-weight: 500;
         font-size: 1rem;
         letter-spacing: .02em;
     }
 
     .navLink:hover{
         color: #69bfe4!important;
+        transition: .25s ease-in-out;
     }
 }

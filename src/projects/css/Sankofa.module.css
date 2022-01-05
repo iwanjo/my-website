@@ -243,6 +243,10 @@ a{
   margin: 1rem 0;
 }
 
+.researchCard p{
+  color: #fafafa;
+}
+
 
 @media screen and (min-width: 768px) {
   .heroContainer {
@@ -471,7 +475,9 @@ a{
   }
 
   .researchCard p{
-    color: rgb(26, 25, 25);
+    color: #fafafa;
+    font-weight: 500;
+    font-size: .95rem;
   }
 
   .researchTitle {
@@ -486,11 +492,23 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
+    margin: 2rem 0rem;
   }
 
   .methodologyImg{
     height: auto;
     width: 320px;
+    margin: 2rem 5rem;
   }
+
+  .ecosystemImg{
+    height: auto;
+    width: 850px;
+    margin: 2rem 0rem;
+  }
+
+  .journeyMaps{
+    margin: 1.5rem 0;
+  }
+  
 }

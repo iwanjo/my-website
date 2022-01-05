@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import styles from "./css/Sankofa.module.css";
 import ProjectsNavbar from "./ProjectsNavbar";
 import ScrollToTop from "react-scroll-to-top";
+import { Card } from "antd";
 
 class Sankofa extends React.Component {
   // componentDidMount() {
@@ -28,7 +29,7 @@ class Sankofa extends React.Component {
                 Ghana properly dispose of and earn money from their secondhand
                 clothing
               </p>
-              <button className={styles.tags}>In Development</button>
+              <button className={styles.tags}>Lab Product</button>
               &nbsp;&nbsp;&nbsp;&nbsp;
               <button className={styles.tags}>Mobile Application</button>
             </div>
@@ -177,7 +178,7 @@ class Sankofa extends React.Component {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <div className={styles.card3}>
                 <div className={styles.centerImg}>
-                  <img src="../assets/figma.png" alt="Project Logo" />
+                  <img src="../assets/figma.png" alt="Figma Logo" />
                 </div>
                 <h5>Figma</h5>
                 <p className={styles.cardText}>
@@ -188,7 +189,7 @@ class Sankofa extends React.Component {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <div className={styles.card4}>
                 <div className={styles.centerImg}>
-                  <img src="../assets/google-docs.png" alt="Calendar Logo" />
+                  <img src="../assets/google-docs.png" alt="Google Docs" />
                 </div>
                 <h5>Google Docs</h5>
                 <p className={styles.cardText}>
@@ -201,6 +202,8 @@ class Sankofa extends React.Component {
             <h5 className={styles.researchTitle}>Research Methodology</h5>
             <div className={styles.methodologyContainer}>
               <div className={styles.methodologyLeft}>
+                <br />
+
                 <p>
                   In the research phase of this project we utilised qualitative
                   research techniques such as:{" "}
@@ -210,6 +213,7 @@ class Sankofa extends React.Component {
                   <li>Shadowing</li>
                   <li>Observation</li>
                 </ul>
+                <br />
 
                 <p>
                   <strong>Research Goal: </strong>To understand the perceptions
@@ -224,44 +228,152 @@ class Sankofa extends React.Component {
 
                 <p>
                   Due to the project's nature, the onsite research involved
-                  different categories of participants. Three main stakeholders were
-                  identified within 4 different locations, for a total of 11
-                  interviews shown below{" "}
+                  different categories of participants. Three main stakeholders
+                  were identified within 4 different locations, for a total of
+                  11 interviews. We used an ecosystem (second image) to help
+                  streamline information gathered to highlight vital and
+                  essential aspects relevant to the project.{" "}
                 </p>
 
                 <div className={styles.methodologyDiv}>
                   <img
                     src="assets/sankofa-research.png"
-                    loading="lazy"
+                    loading="eager"
                     className={styles.methodologyImg}
                     alt="Interview Structure"
                   />
+
+                  <img
+                    src="assets/ecosystem1.png"
+                    loading="eager"
+                    className={styles.ecosystemImg}
+                    alt="Ecosystem"
+                  />
                 </div>
-              </div>
 
-              <div className={styles.methodologyRight}></div>
-            </div>
+                <div className={styles.journeyMaps}>
+                  <strong>Journey Maps</strong>
 
-            {/* Proto Personas */}
-            <div className={styles.defineContainer}>
-              <div className={styles.defineLeft}>
-                <h5 className={styles.researchTitle}>Proto Personas</h5>
-                <p>
-                  A proto-persona analysis was performed to help reduce the
-                  focus on individual user behaviours but draw similarities that
-                  exist to gain opportunities. It also assists in targeting
-                  users based on the assumptions of stakeholders and the
-                  similarities between individual personas during field
-                  research.
-                </p>
-              </div>
+                  <p>
+                    <br></br>
+                    The flow of clothes through the Ghanian markets from import
+                    to purchase by end-consumers involves numerous stakeholders
+                    and intermediaries. To fully understand the stakeholdr
+                    behaviour, we created a journey map to map out the clothes
+                    journey from import to landfill sites.
+                  </p>
 
-              <div className={styles.defineRight}>
-                <img
-                  className={styles.personaImg}
-                  src="../assets/JohnNjeru.png"
-                  alt="John Njeru Persona"
-                />
+                  <div className={styles.methodologyDiv}>
+                    <img
+                      src="assets/journey-map-sankofa.png"
+                      loading="eager"
+                      className={styles.mapImg}
+                      alt="Ecosystem"
+                    />
+                  </div>
+
+                  {/* Key Insights Learned During the Research */}
+                  <h5 className={styles.researchTitle}>Key Insights Learned</h5>
+                  <div className={styles.researchCardGroup}>
+                    <Card
+                      style={{
+                        width: 300,
+                        height: 200,
+                        background: "#41a695",
+                        color: "#fff",
+                        textAlign: "left",
+                      }}
+                      className={styles.researchCard}
+                    >
+                      <p>
+                        “Young & educated consumers are aware & concerned about
+                        the ecological impact of clothing, but mostly don't know how to
+                        contribute to the change.”
+                      </p>
+                    </Card>
+
+                    <Card
+                      style={{
+                        width: 300,
+                        height: 200,
+                        background: "#41a695",
+                        color: "#fff",
+                        textAlign: "left",
+                      }}
+                      className={styles.researchCard}
+                    >
+                      <p>
+                        “Market traders are apathetic to the environmental
+                        impact of clothes. ”
+                      </p>
+                    </Card>
+
+                    <Card
+                      style={{
+                        width: 300,
+                        height: 200,
+                        background: "#41a695",
+                        color: "#fff",
+                        textAlign: "left",
+                      }}
+                      className={styles.researchCard}
+                    >
+                      <p>
+                        “Consumers want inclusive solutions that are accessible
+                        to all regardless of financial or social status.”
+                      </p>
+                    </Card>
+                  </div>
+                  <div className={styles.researchCardGroup}>
+                    <Card
+                      style={{
+                        width: 300,
+                        height: 200,
+                        background: "#41a695",
+                        color: "#fff",
+                        textAlign: "left",
+                      }}
+                      className={styles.researchCard}
+                    >
+                      <p>
+                        “Young consumers do not want solutions that require
+                        excessive spending of time and money.”
+                      </p>
+                    </Card>
+
+                    <Card
+                      style={{
+                        width: 300,
+                        height: 200,
+                        background: "#41a695",
+                        color: "#fff",
+                        textAlign: "left",
+                      }}
+                      className={styles.researchCard}
+                    >
+                      <p>
+                        “Young consumers are interested in upcycling but lack
+                        skills and resources.”
+                      </p>
+                    </Card>
+
+                    <Card
+                      style={{
+                        width: 300,
+                        height: 200,
+                        background: "#41a695",
+                        color: "#fff",
+                        textAlign: "left",
+                      }}
+                      className={styles.researchCard}
+                    >
+                      <p>
+                        “Consumers are not concerned about wearing second hand
+                        because they do not personally know the 1st owner.”
+                      </p>
+                    </Card>
+                  </div>
+                </div>
               </div>
             </div>
 

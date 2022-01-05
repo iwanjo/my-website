@@ -29,7 +29,6 @@ function ProjectsNavbar() {
           <Nav className="mr-auto"></Nav>
           <Nav className={styles.navLinksArea}>
             <Scroll
-              activeClass="active"
               to="section1"
               spy={true}
               smooth={true}
@@ -50,6 +49,7 @@ function ProjectsNavbar() {
             >
               <Nav.Link className={styles.navLink}>Challenge</Nav.Link>
             </Scroll>
+
             <Scroll
               activeClass="active"
               to="section3"
