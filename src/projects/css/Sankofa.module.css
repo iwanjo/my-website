@@ -279,6 +279,7 @@ a{
     width: 100%;
     padding-bottom: 1.5rem;
     color: #000;
+    text-align: justify;
   }
 
   .tags {
@@ -515,7 +516,24 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
+
+  .popularTitle{
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .leftPopularContainer{
+    margin-top: 10%;
+    margin-left: 10rem;
+    width: 45%;
+  }
+
+  .wireframeImg{
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  
   
 }

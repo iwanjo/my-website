@@ -424,8 +424,96 @@ class Sankofa extends React.Component {
                 </div>
               </div>
             </div>
+          </div>
 
-            <p className={styles.designText}></p>
+          {/* Most Popular Solution */}
+          <div className={styles.heroContainer}>
+            <div className={styles.leftPopularContainer}>
+              <h2 className={styles.popularTitle}>Most Popular Solution</h2>
+              <p className={styles.projectText}>
+                Sankofa, a mobile application that uses geolocation to tell
+                consumers the nearest drop off point (charity homes, recycling
+                companies and thrift stores) for their unwanted clothes. There
+                are two interfaces for the application, the consumer side and
+                the merchant side.
+              </p>
+            </div>
+
+            <div className={styles.rightContainer}>
+              <img
+                src="../assets/solution_sankofa.png"
+                loading="eager"
+                alt="Most Popular Solution - Sankofa"
+                className={styles.protoImg}
+              />
+            </div>
+          </div>
+
+          <div className={styles.designContainer}>
+            <h1 className={styles.designTitle}>App Functional Requirements</h1>
+            <ul>
+              <li>
+                The app should use consumer location, upon request, to give
+                nearest drop off points around him/her ie.charity homes, other
+                thrift shops, recycling companies/collectors
+              </li>
+              <br />
+              <li>
+                The app should provide information about the types of clothes
+                viable for drop off at each location and the incentive.
+              </li>
+              <br />
+              <li>
+                The app should provide information detailed information on each
+                suggested drop off point
+              </li>
+              <br />
+              <li>
+                The app should provide a method for drop off or pick up of
+                clothes by a delivery company
+              </li>
+              <br />
+              <li>
+                The app should provide companies to sign up & login with ease.
+              </li>
+              <br />
+              <li>
+                The app should provide companies with an in-app wallet that
+                would be used for transactions with consumers.
+              </li>
+              <br />
+              <li>
+                The app should provide companies with prompts to fill out
+                profile details.
+              </li>
+            </ul>
+
+            <br />
+            <br />
+
+            <h5 className={styles.designTitle}>Sankofa Wireframes</h5>
+            <p>
+              After crafting Sankofa's functional specifications, we moved onto
+              the wireframing stage of the design process. Here are a couple of
+              wireframe shots
+            </p>
+          </div>
+
+          <div className={styles.wireframeImg}>
+            <img
+              src="../assets/sankofa-wireframes.png"
+              alt="Sankofa Wireframes - Onboarding, Home, Map"
+              loading="eager"
+              className={styles.wireframeImg}
+
+            />
+          </div>
+
+          <div className={styles.designContainer}>
+            <p>The wireframes above showcase stage 2 of the onboarding screen, the home screen where the user can filter between recycling companies, thrift shops and charity homes, and a map view showing their location.</p>
+            <br />
+            <h5 className={styles.designTitle}>High Fidelity Screens</h5>
+
           </div>
         </section>
       </>

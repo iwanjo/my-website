@@ -172,7 +172,7 @@ function Home() {
         <div className={styles.projectBlock}>
           <div className={styles.leftProject}>
             <img
-              src="../assets/foresight-banner.png"
+              src="../assets/foresight-new-banner.png"
               className={styles.bannerImg}
               alt="Foresight Banner"
             ></img>
