@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import { Helmet } from "react-helmet";
 import styles from "./css/DiscoverKenya.module.css";
@@ -5,10 +6,11 @@ import ProjectsNavbar from "./ProjectsNavbar";
 import ScrollToTop from "react-scroll-to-top";
 import Carousel from "react-bootstrap/Carousel";
 import { Card } from "antd";
+import Footer from "../Footer";
 
 class DiscoverKenya extends React.Component {
-  componentDidMount(){
-    window.scrollTo(0, 0)
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
   render() {
     return (
@@ -489,17 +491,25 @@ class DiscoverKenya extends React.Component {
           />
 
           <div className={styles.gifContainer}>
-            <h1>Discover Kenya Prototype</h1>
+            <h1>Discover Kenya Prototype - GIF and Figma Prototype</h1>
             <p>
               Below is an animated GIF of Discover Kenya's prototype and some of
-              the various flows the user goes through when they use our app.
+              the various flows the user goes through when they use our app. You can also interact with the clickable Figma Prototype below
             </p>
             <img
               src="../assets/interface.gif"
               alt="Discover Kenya Clickable Prototype"
               className={styles.interfaceGif}
             />
+            <iframe
+              className={styles.protoFrame}
+              width="1100"
+              height="750"
+              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXeWTTHvzGUp3STWwnCWb8j%2FDiscover-Kenya-Case-Study%3Fnode-id%3D803%253A1856%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D798%253A2435" allowFullScreen
+              allowfullscreen
+            ></iframe>
           </div>
+
         </section>
 
         <section className={styles.implementation} id="section4">
@@ -520,71 +530,7 @@ class DiscoverKenya extends React.Component {
         </section>
 
         {/* Footer */}
-        <section className={styles.contact} id="section4">
-          <div className={styles.contactContainer}>
-            <h1 className={styles.contactTitle}>Let's get in touch</h1>
-            <p className={styles.contactText}>
-              Keen to collaborate and work on impactful projects💻. Let's
-              connect via{" "}
-              <a
-                href="mailto:iwanjohi11@gmail.com"
-                className={styles.emailText}
-              >
-                Email
-              </a>
-            </p>
-            <div className={styles.socialCircles}>
-              <div className={styles.linkedinCircle}>
-                <a
-                  href="https://www.linkedin.com/in/ian-wanjohi/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/assets/linkedin-logo.png"
-                    alt="Ian Wanjohi's LinkedIn"
-                    className={styles.linkedinImage}
-                  ></img>
-                </a>
-              </div>{" "}
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <div className={styles.dribbbleCircle}>
-                <a
-                  href="https://dribbble.com/ianwanjohi"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/assets/dribbble-logo.png"
-                    alt="Ian Wanjohi's Dribbble"
-                    className={styles.dribbbleImage}
-                  ></img>
-                </a>
-              </div>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <div className={styles.githubCircle}>
-                <a
-                  href="https://github.com/iwanjo"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/assets/github-logo.png"
-                    alt="Ian Wanjohi's Github"
-                    className={styles.githubImage}
-                  ></img>
-                </a>
-              </div>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div className={styles.copyRight}>
-              <p>
-                Copyright &copy; 2021 Designed and developed with care by Ian
-                Wanjohi.
-              </p>
-            </div>
-          </div>
-        </section>
+        <Footer />
       </>
     );
   }

@@ -258,7 +258,7 @@ function Home() {
           </div>
           <div className={styles.copyRight}>
             <p>
-              Copyright &copy; 2021 Designed and developed with care by Ian
+              Copyright &copy; 2022 Designed and developed with care by Ian
               Wanjohi.
             </p>
           </div>
