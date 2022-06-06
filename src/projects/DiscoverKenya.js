@@ -474,24 +474,11 @@ class DiscoverKenya extends React.Component {
                 alt="Onboarding Wireframe"
               />
             </div>
-
-            <h3 className={styles.interfaceTitle}>High Fidelity Interfaces</h3>
-            <p className={styles.interfaceText}>
-              After wireframing, I went on to create the high fidelity screens.
-              I reviewed the information architecture and created the screens
-              based on the various interactions the user will come into contact
-              with. Here are some of Discover Kenya's high-fidelity shots.
-            </p>
           </div>
-          <div className={styles.interfaceImg}></div>
-          <img
-            src="../assets/interface.png"
-            alt="High Fidelity Shots"
-            className={styles.interfaceImg}
-          />
+
 
           <div className={styles.gifContainer}>
-            <h1>Discover Kenya Prototype - GIF and Figma Prototype</h1>
+            <h1>Discover Kenya Prototype</h1>
             <p>
               Below is an animated GIF of Discover Kenya's prototype and some of
               the various flows the user goes through when they use our app. You can also interact with the clickable Figma Prototype below
@@ -503,8 +490,6 @@ class DiscoverKenya extends React.Component {
             />
             <iframe
               className={styles.protoFrame}
-              width="1100"
-              height="750"
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXeWTTHvzGUp3STWwnCWb8j%2FDiscover-Kenya-Case-Study%3Fnode-id%3D803%253A1856%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D798%253A2435" allowFullScreen
               allowfullscreen
             ></iframe>

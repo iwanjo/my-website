@@ -437,6 +437,21 @@
   width: 100%;
 }
 
+.prototypeFrame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.protoFrame{
+  margin-top: 2rem;
+  margin-bottom: 1.3rem;
+  border: 1px solid #DEDEDE; 
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 550px;
+}
+
 
 @media screen and (min-width: 768px) {
   .heroContainer {
@@ -870,8 +885,10 @@
   }
 
   .protoFrame{
-    border: 1px solid; 
+    border: 1px solid #DEDEDE; 
     background-color: rgba(0, 0, 0, 0.1);
+    width: 1100px;
+    height: 750px;
   }
 
 
