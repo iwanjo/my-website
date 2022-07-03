@@ -367,6 +367,13 @@
     letter-spacing: 0.03rem;
   }
 
+  .text{
+    padding-top: 15rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
   .caseTitle {
     color: #080420;
     font-size: 1.6rem;
