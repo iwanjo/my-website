@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import ScrollToTop from "react-scroll-to-top";
-import NavbarArea from "./Navbar";
+// import ScrollToTop from "react-scroll-to-top";
+// import NavbarArea from "./Navbar";
 import styles from "./css-modules/Home.module.css";
-import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+// import { Helmet } from "react-helmet";
+// import { Link } from "react-router-dom";
 
 function Home() {
   return(
