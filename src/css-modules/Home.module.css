@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&family=Urbanist&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
-
-
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -24,18 +22,11 @@
 
 .helloTitle {
   padding-top: 1.5rem;
-  font-size: 1.7rem;
-}
-
-.fancyTitle {
-  font-family: "Rouge Script", cursive;
-  font-size: 2.3rem;
-  font-weight: 400;
-  letter-spacing: 0.01em;
+  font-size: 1.6rem;
 }
 
 .jobTitle {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   width: 80%;
   font-weight: 400;
   text-align: center;
@@ -43,7 +34,7 @@
 }
 
 .missionText {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   padding-bottom: 0.8rem;
   color: #586066;
   letter-spacing: 0.01em;
@@ -69,12 +60,12 @@
   outline: none;
   letter-spacing: 0.02em;
   color: #fafafa;
-  background-image: linear-gradient(to right, #56ccf2, #00a5f7);
+  background-image: linear-gradient(to right, #3bbce7, #00a5f7);
   border: none;
   border-radius: 5px;
   margin-top: 0.5rem;
   margin-bottom: 1.8rem;
-  padding: 0.9rem 1.1rem;
+  padding: 1rem 1.1rem;
 }
 
 .resumeBtn:hover {
@@ -87,17 +78,11 @@
   outline: none;
   background: none;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .calendlyBtn:hover {
   color: #007fbe;
-}
-
-.horizLine {
-  margin-top: 2.3rem;
-  margin-left: 2.6rem;
-  margin-right: 1.7rem;
 }
 
 .portfolio {
@@ -147,21 +132,86 @@
   color: #00a5f7;
 }
 
+.portfolio h4 {
+  font-weight: bold;
+  padding: 0.75rem 0;
+}
+
 .projectDescription {
   color: #1d1e1f;
-  font-size: 13px;
+  font-size: 15px;
   text-align: justify;
 }
 
-/* contact area */
-
-.contact {
-  margin-top: 3rem;
-  background-image: linear-gradient(to right, #39c3f1, #26a3e2);
+.ideationGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.ideationGroup h5 {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.ideationGroup p{
+  text-align: center;
+}
+
+.ideationCard {
+  margin: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ideationImg {
+  width: 100px;
+  height: 100px;
+}
+
+.lottieImg{
+  height: 180px;
+  width: auto;
+}
+
+.valuesGroup {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0;
+}
+
+.valuesImg {
+  height: 32px;
+  width: 32px;
+  margin: 0.75rem 0.9rem 0 0;
+}
+
+.aboutTitle {
+  padding-top: 1rem;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.aboutSubtitle {
+  padding-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.workRow{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* contact area */
+
 .contactContainer {
-  margin-left: 2.3rem;
+  margin: 1rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -173,18 +223,16 @@
   letter-spacing: 0.03em;
   color: #fff;
   font-weight: bold;
-  padding: 2rem 0 1rem 0;
+  padding: 1rem 0 0.6rem 0;
 }
 
 .contactText {
   font-size: 16px;
-  color: #fff;
   margin-right: 2.3rem;
 }
 
 .emailText {
   font-size: 1.1rem;
-  color: #fff;
   letter-spacing: 0.02em;
 }
 
@@ -248,8 +296,7 @@
 .copyRight {
   margin-right: 2.3rem;
   font-size: 0.85rem;
-  padding-bottom: 0.7rem;
-  color: #fff;
+  padding-bottom: 2rem;
 }
 
 /* For Dekstop Screens */
@@ -273,6 +320,41 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #007fbe;
+  }
+
+  .ideationGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ideationGroup h5 {
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .workRow{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ideationCard {
+    margin: 1.2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lottieImg{
+    height: 200px;
+    width: auto;
+  }
+
+  .ideationImg {
+    width: 100px;
+    height: 100px;
   }
 
   .heroSection {
@@ -317,14 +399,15 @@
     font-weight: bold;
     outline: none;
     letter-spacing: 0.02em;
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     border: none;
-    padding: .85rem 2rem;
+    padding: 0.95rem 2rem;
     border-radius: 8px;
   }
 
   .calendlyBtn {
     font-size: 1rem;
+    font-weight: bold;
   }
 
   .mainImg {
@@ -335,28 +418,13 @@
     display: block;
   }
 
-  .desContainer {
-    float: right;
-  }
-
-  .des1 {
-    height: 265.34px;
-    width: 132.67px;
-  }
-
-  .horizLine {
-    margin-top: 2rem;
-    margin-left: 12.5rem;
-    margin-right: 15.2rem;
-  }
-
   ::selection {
     color: #fff;
     background: #00a5f7;
   }
 
   .portfolio {
-    margin: 4rem 12.3rem;
+    margin: 2rem 10rem;
   }
 
   .latestTitle {
@@ -367,13 +435,6 @@
     letter-spacing: 0.03rem;
   }
 
-  .text{
-    padding-top: 15rem;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
   .caseTitle {
     color: #080420;
     font-size: 1.6rem;
@@ -381,9 +442,33 @@
     padding-bottom: 2rem;
   }
 
+  .aboutTitle {
+    padding-top: 1rem;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  .aboutSubtitle {
+    padding-top: 0.5rem;
+    font-size: 1.3rem;
+  }
+
+  .valuesGroup {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+  }
+
+  .valuesImg {
+    height: 32px;
+    width: 32px;
+    margin: 0.6rem 0.75rem 0 0;
+  }
+
   /* projects */
   .projectBlock {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: row;
   }
@@ -393,7 +478,7 @@
   }
 
   .rightProject {
-    padding-top: 3rem;
+    margin-top: 2%;
     width: 50%;
   }
   .bannerImg {
@@ -418,12 +503,11 @@
   /* contact */
 
   .contact {
-    margin-top: 4rem;
-    background-color: #00a5f7;
+    margin-top: 1rem;
   }
 
   .contactContainer {
-    margin-left: 12.3rem;
+    margin-left: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -433,7 +517,6 @@
   .contactTitle {
     font-size: 2rem;
     letter-spacing: 0.03em;
-    color: rgb(255, 251, 251);
     font-weight: bold;
     padding-top: 2.7rem;
     padding-bottom: 0.4rem;
@@ -441,14 +524,12 @@
 
   .contactText {
     padding: 0.8rem 0;
-    color: #fff;
     font-size: 16px;
     font-weight: bold;
   }
 
   .emailText {
     font-size: 14px;
-    color: #fff;
     font-weight: bold;
     text-decoration: underline;
   }
@@ -460,7 +541,6 @@
   }
 
   .linkedinCircle {
-    background-color: #fff;
     padding: 1.3rem;
     height: 4.3rem;
     width: 4.3rem;
@@ -482,7 +562,6 @@
   }
 
   .githubCircle {
-    background-color: #fff;
     padding: 1.15rem;
     height: 4.3rem;
     width: 4.3rem;
@@ -502,7 +581,6 @@
   }
 
   .dribbbleCircle {
-    background-color: #fff;
     padding: 1.15rem;
     height: 4.3rem;
     width: 4.3rem;
@@ -527,8 +605,7 @@
 
   .copyRight {
     font-size: 14px;
-    font-weight: bold;
-    color: #fff;
+    font-weight: 500;
   }
 }
 
@@ -547,30 +624,25 @@
 
   .helloTitle {
     padding-top: 1.35rem;
-    font-size: 1.5rem;
-  }
-
-  .fancyTitle {
-    font-size: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.02em;
+    font-size: 1.6rem;
   }
 
   .jobTitle {
-    font-size: 0.95rem;
-    width: 70%;
+    font-size: 1.1rem;
+    width: 90%;
     font-weight: 300;
     text-align: center;
     padding: 1rem 0;
+    color: #05030f;
   }
 
   .missionText {
-    font-size: 0.8rem;
+    font-size: 0.92rem;
     padding-bottom: 1rem;
     color: #586066;
     letter-spacing: 0;
     text-align: center;
-    width: 80%;
+    width: 85%;
   }
   .mainImg {
     height: 100px;
@@ -580,11 +652,174 @@
     display: block;
   }
   .resumeBtn {
-    font-size: 0.7rem;
-    padding: 0.7rem 0.9rem;
+    font-size: 0.9rem;
+    padding: 0.9rem 0.9rem;
   }
 
   .calendlyBtn {
-    font-size: 0.8rem;
+    font-size: 0.93rem;
+  }
+}
+
+@media only screen and (min-width: 2050px) {
+  /* Header Banner */
+
+  .helloTitle {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    padding-top: 2rem;
+  }
+
+  .jobTitle {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .missionText {
+    font-size: 1.5rem;
+    color: #586066;
+    letter-spacing: 0.01em;
+    text-align: center;
+    width: 75%;
+  }
+
+  .resumeBtn {
+    font-size: 1.3rem;
+    font-weight: bold;
+    outline: none;
+    letter-spacing: 0.02em;
+    margin-top: 0.9rem;
+    border: none;
+    padding: 1.2rem 2.4rem;
+    border-radius: 8px;
+  }
+
+  .calendlyBtn {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .mainImg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+  }
+
+  /* Projects Block */
+
+  .portfolio {
+    margin: 4rem 15rem;
+  }
+
+  .latestTitle {
+    color: #00a5f7;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    letter-spacing: 0.03rem;
+  }
+  .caseTitle {
+    color: #080420;
+    font-size: 2rem;
+    letter-spacing: 0.03em;
+    padding-bottom: 2.5rem;
+  }
+
+  /* projects */
+  .projectBlock {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftProject {
+    width: 100%;
+  }
+
+  .rightProject {
+    width: 100%;
+  }
+  .bannerImg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.4rem;
+  }
+
+  .projectTitle {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00a5f7;
+  }
+
+  .projectDescription {
+    color: #1d1e1f;
+    font-size: 1.8rem;
+  }
+
+  .contactContainer {
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .portfolio {
+    margin: 4rem 4rem;
+  }
+
+  .projectBlock {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftProject {
+    width: 100%;
+  }
+
+  .rightProject {
+    width: 100%;
+  }
+
+  .bannerImg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.4rem;
+  }
+
+  .contactContainer {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio {
+    margin: 4rem 2rem;
+  }
+
+  .contactContainer {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }

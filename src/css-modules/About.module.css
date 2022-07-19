@@ -1,0 +1,307 @@
+.abtContainer {
+  display: flex;
+  margin: 2rem 2rem;
+  flex-direction: column;
+}
+
+.aboutLeft {
+  width: 100%;
+}
+
+.aboutRight {
+  width: 100%;
+}
+
+
+
+.aboutRight p {
+  padding-top: 0.75rem;
+  text-align: justify;
+  font-size: 0.95rem;
+}
+
+.aboutImg {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.valuesGroup{
+  display: flex;
+  flex-direction: row;
+  margin: .5rem 0;
+}
+
+.valuesImg{
+  height: 32px;
+  width: 32px;
+  margin: .75rem .9rem 0 0;
+}
+
+.contactContainer {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contactTitle {
+  font-size: 1.3rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem 0 0.6rem 0;
+}
+
+.contactText {
+  font-size: 16px;
+  margin-right: 2.3rem;
+}
+
+.emailText {
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
+.socialCircles {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 2rem 0;
+}
+
+.linkedinCircle {
+  background-color: #deecf3;
+  padding: 0.7rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.linkedinImage {
+  height: 1.25rem;
+  background: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.githubCircle {
+  background-color: #dbdbdb;
+  padding: 0.7rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.githubImage {
+  height: 1.5rem;
+  background: none;
+}
+
+.dribbbleCircle {
+  background-color: #fdecf2;
+  padding: 0.8rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.dribbbleImage {
+  height: 1.4rem;
+  background: none;
+}
+
+.socialMedia div {
+  margin: 0.4rem 1.1rem;
+}
+
+.copyRight {
+  margin-right: 2.3rem;
+  font-size: 0.85rem;
+  padding-bottom: 2rem;
+}
+
+.aboutRight h2 {
+  padding-top: 1.4rem;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.aboutRight p {
+  padding-top: 0.75rem;
+  text-align: justify;
+  font-size: 0.95rem;
+}
+@media only screen and (min-width: 768px) {
+  .aboutContainer {
+    display: flex;
+    margin: 2rem 10rem;
+    flex-direction: row;
+  }
+
+  .abtContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .aboutLeft {
+    width: 50%;
+  }
+
+  .aboutRight {
+    margin-top: 2.3rem;
+    padding-left: 1rem;
+    width: 50%;
+  }
+
+  .aboutImg {
+    width: auto;
+    height: 52%;
+    border-radius: 6px;
+  }
+
+  .aboutRight h2 {
+    padding-top: 1rem;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  .aboutRight h5{
+    padding-top: .5rem;
+    font-size: 1.3rem;
+  }
+
+  .aboutRight p {
+    padding-top: 0.75rem;
+    text-align: justify;
+    font-size: 1rem;
+    color: #252525;
+  }
+
+  .valuesGroup{
+    display: flex;
+    flex-direction: row;
+    margin: .75rem 0;
+  }
+
+  .valuesImg{
+    height: 32px;
+    width: 32px;
+    margin: .75rem .75rem 0 0;
+  }
+
+  .contact {
+    margin-top: 1rem;
+  }
+
+  .contactContainer {
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contactTitle {
+    font-size: 2rem;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    padding-top: 2.7rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .contactText {
+    padding: 0.8rem 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .emailText {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .socialCircles {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 2rem 0;
+  }
+
+  .linkedinCircle {
+    padding: 1.3rem;
+    height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .linkedinCircle:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+
+  .linkedinImage {
+    height: 1.5rem;
+    background: none;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .githubCircle {
+    padding: 1.15rem;
+    height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .githubCircle:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+
+  .githubImage {
+    height: 2rem;
+    background: none;
+  }
+
+  .dribbbleCircle {
+    padding: 1.15rem;
+    height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .dribbbleCircle:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+
+  .dribbbleImage {
+    height: 2rem;
+    background: none;
+  }
+
+  .socialMedia div {
+    margin: 0.4rem 1.1rem;
+  }
+
+  .copyRight {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

@@ -1,9 +1,32 @@
+*{
+    font-family: "GTWalsheim";
+}
+
+#light {
+    background-color: #f3f3f7;
+  }
+  
+#dark {
+    background-color: #082032;
+}
+
+.topNavLight{
+    background: #f3f3f7;
+}
+
 .topNav{
     background: #ffffff;
+
+}
+
+#dark
+
+.topNavDark{
+    background: #082032;
 }
 
 .avatar{
-    height: 55px;
+    height: 50px;
 }
 
 .navLinksArea{
@@ -22,9 +45,13 @@
 
 @media only screen and (min-width: 768px){
     .avatar{
-        height: 55px;
+        height: 60px;
         margin: 0 px;
         cursor: pointer;
+    }
+
+    .avatar:hover{
+        transform: scale(1.05);
     }
 
     .navLinksArea{
@@ -33,14 +60,35 @@
 
     .navLink{
         color: #1d1c1c!important;
-        padding: 0 2rem!important;
+        margin: 0 1.2rem;
         font-weight: 500;
         font-size: 1rem;
         letter-spacing: .02em;
     }
 
     .navLink:hover{
-        color: #69bfe4!important;
+        color: #52b8e4!important;
         transition: .25s ease-in-out;
     }
+}
+
+@media only screen and (min-width: 2050px) {
+    .avatar{
+        height: 100px;
+        margin: 0 px;
+        cursor: pointer;
+    }
+
+    .avatar:hover{
+        transform: scale(1.1);
+    }
+
+    .navLink{
+        color: #1d1c1c!important;
+        margin: 0 2rem;
+        font-weight: 500;
+        font-size: 1.7rem;
+        letter-spacing: .03em;
+    }
+
 }

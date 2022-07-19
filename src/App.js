@@ -7,6 +7,7 @@ import About from './About';
 import Foresight from './projects/Foresight';
 import Sankofa from './projects/Sankofa';
 import Aura from './projects/Aura';
+import Seedfund from './projects/Seedfund';
 import { Route } from 'react-router-dom';
 
 
@@ -42,6 +43,7 @@ class App extends React.Component {
       <Route exact path="/foresight" component={Foresight}></Route>
       <Route exact path="/sankofa" component={Sankofa}></Route>
       <Route exact path="/aura" component={Aura}></Route>
+      <Route exact path="/seedfund" component={Seedfund}></Route>
 
 
       </>

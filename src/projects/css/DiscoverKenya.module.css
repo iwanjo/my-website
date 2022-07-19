@@ -19,7 +19,7 @@
 }
 
 .projectText {
-  font-size: 14px;
+  font-size: 15px;
   padding: 0.5rem 1rem 0 0;
   width: 90%;
   color: #000;
@@ -74,8 +74,8 @@
 }
 
 .challengeText {
-  padding: 1rem 0.5rem 0 0;
-  font-size: 14px;
+  padding: 1rem 0rem 0 0;
+  font-size: 15px;
   text-align: justify;
 }
 
@@ -102,8 +102,6 @@
   flex-direction: column;
 }
 
-
-
 .card1,
 .card2,
 .card3,
@@ -127,7 +125,7 @@
 .cardText {
   text-align: center;
   padding: 1rem 0;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .centerImg {
@@ -136,8 +134,6 @@
   justify-content: center;
   align-items: center;
 }
-
-
 
 /* design process */
 
@@ -162,13 +158,13 @@
 }
 
 .designText {
-  font-size: 14px;
+  font-size: 15px;
   padding: 0 3rem;
   text-align: center;
 }
 
 .processImg {
-  height: 80px;
+  height: 100px;
   margin: 1.2rem 0;
 }
 
@@ -184,7 +180,7 @@
 }
 
 .defineLeft ul {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .defineTitle {
@@ -193,17 +189,18 @@
 }
 
 .defineText {
-  padding: 0.4rem 2rem 0 0;
+  padding: 0.4rem 0rem 0 0;
   margin-right: 2rem;
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
 }
 
-.researchFindings{
-  margin: 2rem 0 2rem 2rem;
+.researchFindings {
+  margin: 2rem 0 2rem 0rem;
 }
 
-.researchFindingsTitle{
+.researchFindingsTitle {
+  text-align: center;
   font-size: 22px;
   color: #1d1617;
   font-weight: bold;
@@ -212,6 +209,9 @@
 .researchCardGroup {
   display: flex;
   flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .researchCard {
@@ -226,8 +226,8 @@
 }
 
 .personaImg {
-  margin: 2rem 0 2rem 0;
-  width: 85%;
+  margin: 2rem 2rem 2rem 0;
+  width: 90%;
 }
 
 /* ideate */
@@ -249,10 +249,10 @@
 }
 
 .ideateText {
-  padding: 0.4rem 2rem 0 0;
+  padding: 0.4rem 0rem 0 0;
   text-align: justify;
   margin-right: 2rem;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .ideateRight {
@@ -260,8 +260,8 @@
 }
 
 .brainstormingImg {
-  width: 85%;
-  margin: 1rem 0rem 0.8rem 0;
+  width: 92%;
+  margin: 1.5rem 1rem 1.5rem 0rem;
 }
 
 /* solution */
@@ -269,7 +269,7 @@
   background-color: #faeaed;
   display: flex;
   flex-direction: column;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   overflow-x: hidden;
 }
 
@@ -279,7 +279,7 @@
 }
 
 .solutionLeft {
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 100%;
 }
 
@@ -288,20 +288,19 @@
 }
 
 .solutionRight img {
-  width: 80%;
+  width: 84%;
 }
 
 .solutionTitle {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   color: #000;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .solutionText {
-  font-size: 14px;
-  padding-right: 1.8rem;
-  margin-right: 1.8rem;
-  text-align: justify;
+  font-size: 15px;
+  padding-right: 3.6rem;
+  /* text-align: justify; */
 }
 
 /* Functional Specs */
@@ -317,7 +316,7 @@
 }
 
 .functionalSpecs p {
-  font-size: 14px;
+  font-size: 15px;
   padding-bottom: 0.5rem;
   margin-right: 1rem;
   text-align: justify;
@@ -326,13 +325,14 @@
 .specDiv {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   margin: 1rem 0;
 }
 
 .specImg {
-  width: 96%;
+  width: 90%;
+  padding: 1rem 0;
 }
 
 .resumeBtn {
@@ -370,7 +370,7 @@
   font-size: 24px;
 }
 
-.prototypingText{
+.prototypingText {
   font-size: 14px;
   text-align: justify;
 }
@@ -380,24 +380,23 @@
   width: 100%;
 }
 
-.interfaceTitle{
+.interfaceTitle {
   font-size: 24px;
   font-weight: bold;
   padding: 2rem 0 1.2rem 0;
 }
 
-.interfaceText{
+.interfaceText {
   font-size: 14px;
 }
 
-.interfaceImg{
+.interfaceImg {
   width: 100%;
 }
 
-
 /* implementation section */
-.implementationContainer{
-  margin: 5rem 2rem;
+.implementationContainer {
+  margin: 3rem 2rem;
 }
 
 .implementationTitle {
@@ -407,12 +406,11 @@
   font-size: 24px;
 }
 
-.implementationContainer p{
+.implementationContainer p {
   font-size: 14px;
 }
 
-
-.gifContainer{
+.gifContainer {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
@@ -420,38 +418,37 @@
   flex-direction: column;
 }
 
-.gifContainer h1{
+.gifContainer h1 {
   font-size: 24px;
   font-weight: bold;
   color: #e16e7e;
-  padding: 2rem 0 .8rem 0;
+  padding: 2rem 0 0.8rem 0;
 }
 
-.gifContainer p{
-  padding: .5rem 1.5rem 1rem 1.5rem ;
+.gifContainer p {
+  padding: 0.5rem 1.5rem 1rem 1.5rem;
   font-size: 14px;
   text-align: center;
 }
 
-.interfaceGif{
+.interfaceGif {
   width: 100%;
 }
 
-.prototypeFrame{
+.prototypeFrame {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.protoFrame{
+.protoFrame {
   margin-top: 2rem;
   margin-bottom: 1.3rem;
-  border: 1px solid #DEDEDE; 
+  border: 1px solid #dedede;
   background-color: rgba(0, 0, 0, 0.1);
   width: 250px;
-  height: 550px;
+  height: 700px;
 }
-
 
 @media screen and (min-width: 768px) {
   .heroContainer {
@@ -676,11 +673,11 @@
     width: 52%;
   }
 
-  .researchFindings{
+  .researchFindings {
     margin: 2rem 10rem 1rem 10rem;
   }
 
-  .researchFindingsTitle{
+  .researchFindingsTitle {
     font-size: 24px;
     color: #e16e7e;
     font-weight: bold;
@@ -788,6 +785,7 @@
 
   .specImg {
     width: 30%;
+    padding: 0 2rem;
   }
 
   /* prototyping */
@@ -818,11 +816,11 @@
     font-size: 28px;
   }
 
-  .prototypingText{
+  .prototypingText {
     font-size: 16px;
   }
 
-  .onboardingText{
+  .onboardingText {
     font-size: 16px;
   }
 
@@ -831,24 +829,23 @@
     margin: 1rem 0rem;
   }
 
-  .interfaceTitle{
+  .interfaceTitle {
     font-size: 26px;
     font-weight: bold;
     padding: 4rem 0 1rem 0;
   }
 
-  .interfaceText{
+  .interfaceText {
     font-size: 16px;
   }
 
-  .interfaceImg{
+  .interfaceImg {
     width: 100%;
     height: 10%;
   }
 
-
   /* implementation section */
-  .implementationContainer{
+  .implementationContainer {
     margin: 4rem 10rem 1rem 10rem;
   }
 
@@ -859,7 +856,7 @@
     font-size: 28px;
   }
 
-  .gifContainer{
+  .gifContainer {
     margin-top: 7rem;
     display: flex;
     justify-content: center;
@@ -867,31 +864,836 @@
     flex-direction: column;
   }
 
-  .gifContainer h1{
+  .gifContainer h1 {
     font-size: 28px;
     font-weight: bold;
     color: #e16e7e;
     padding: 2rem 0 1rem 0;
   }
 
-  .gifContainer p{
+  .gifContainer p {
     padding-bottom: 1rem;
     font-size: 16px;
   }
-  .prototypeFrame{
+  .prototypeFrame {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .protoFrame{
-    border: 1px solid #DEDEDE; 
+  .protoFrame {
+    border: 1px solid #dedede;
     background-color: rgba(0, 0, 0, 0.1);
-    width: 1100px;
+    width: 1200px;
     height: 750px;
+  }
+}
+
+/* Additional Responsiveness */
+
+@media only screen and (min-width: 2000px) {
+  /* Banner Section */
+
+  .heroContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    background-color: #faeaed;
+    overflow-x: hidden;
+    padding: 1rem 5rem;
+  }
+
+  .leftContainer {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    width: 50%;
+  }
+
+  .rightContainer {
+    width: 50%;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+    margin: 32px 0 3rem 5rem;
+  }
+
+  .projectTitle {
+    margin-left: 5rem;
+    color: #000;
+    font-weight: 800;
+    font-size: 3.5rem;
+    letter-spacing: 0.02em;
+  }
+
+  .projectText {
+    margin-left: 5rem;
+    font-size: 1.8rem;
+    padding: 1rem 0.4rem 2rem 0;
+    width: 100%;
+    color: #000;
+  }
+
+  .tagGroup {
+    margin-left: 5rem;
+  }
+
+  .tags {
+    outline: none;
+    border: none;
+    padding: 1.2rem 2rem;
+    border-radius: 40px;
+    background: #e16e7e;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+
+  .protoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: -2rem;
+    margin-left: 4rem;
+  }
+
+  /* Scope Section */
+
+  .challenge {
+    padding-top: 2rem;
+    background-color: #fff;
+  }
+
+  .challengeDiv {
+    margin: 1rem 10rem;
+  }
+
+  .challengeTitle {
+    color: #e16e7e;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  .challengeText {
+    padding: 0.5rem 0rem 0 0;
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+
+  .imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .challengeImg {
+    margin: 2rem 0 2rem 0;
+    width: 45%;
+  }
+
+  .scopeTitle {
+    color: #e16e7e;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  .cardGroup {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 25%;
+    height: 240px;
+    border: 1px solid #d6d5d5;
+  }
+
+  .cardGroup img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cardGroup h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  .cardText {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+  }
+
+  .centerImg {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Design Process */
+
+  .designProcess {
+    margin: 3rem 0;
+    background-color: #faeaed;
+    width: 100%;
+    height: 400px;
+  }
+
+  .designContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .designTitle {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 3rem 0 0.8rem 0;
+  }
+
+  .designText {
+    font-size: 1.4rem;
+    padding: 0 3rem;
+    text-align: center;
+  }
+
+  .processImg {
+    height: 170px;
+    margin: 1.2rem 0;
+  }
+
+  /* Define Section */
+
+  .defineContainer {
+    margin: 5rem 10rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .defineLeft {
+    margin-top: 4rem;
+    width: 50%;
+  }
+
+  .defineLeft ul {
+    font-size: 1.4rem;
+  }
+
+  .defineTitle {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .defineText {
+    padding: 0.4rem 5rem 0 0;
+    text-align: justify;
+    font-size: 1.4rem;
+  }
+
+  .defineRight {
+    width: 50%;
+  }
+
+  .personaImg {
+    margin: 2rem 0 2rem 0;
+    width: 88%;
+  }
+
+  .researchFindings {
+    margin: 2rem 10rem 1rem 10rem;
+  }
+
+  .researchFindingsTitle {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  .researchCardGroup {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .researchCardGroup p {
+    font-size: 16px;
+  }
+
+  .researchCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+
+  /* Ideate Section */
+
+  .ideateContainer {
+    margin: 2rem 10rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ideateLeft {
+    width: 50%;
+  }
+
+  .ideateTitle {
+    font-size: 2.2rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .ideateText {
+    padding: 1.5rem 0;
+    text-align: justify;
+    font-size: 1.4rem;
+  }
+
+  .ideateRight {
+    width: 50%;
+  }
+
+  .brainstormingImg {
+    width: 93%;
+    margin: 1rem 2rem 0 0;
+  }
+
+  /* Solution Section */
+  .solutionContainer {
+    background-color: #faeaed;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+  }
+
+  .solutionLeft,
+  .solutionRight {
+    margin: 3rem 10rem;
+  }
+
+  .solutionLeft {
+    margin-top: 10rem;
+    width: 65%;
+  }
+
+  .solutionRight {
+    width: 35%;
+  }
+
+  .solutionRight img {
+    width: 70%;
+  }
+
+  .solutionTitle {
+    padding-bottom: 1.7rem;
+    color: #000;
+    font-size: 2.6rem;
+  }
+
+  .solutionText {
+    font-size: 1.7rem;
+    text-align: left;
+  }
+
+  /* Functional Specs */
+
+  .functionalSpecs {
+    margin: 4rem 10rem 1rem 10rem;
+  }
+
+  .functionalSpecs h3 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding: 1rem 0 1.5rem 0;
+  }
+
+  .functionalSpecs p {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .specDiv {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+  }
+
+  .specImg {
+    width: 29%;
+    padding: 0 3rem;
+  }
+
+  /* Prototyping Section */
+
+  .prototyping {
+    background-color: #fcfcfc;
+  }
+
+  .prototypingContainer {
+    margin: 4rem 10rem 1rem 10rem;
+    padding: 5rem 0 2rem 0;
+  }
+
+  .prototypingTitle {
+    padding-bottom: 1rem;
+    color: #e16e7e;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  .prototypingText {
+    font-size: 1.4rem;
+  }
+
+  .resumeBtn {
+    font-size: 1.3rem;
+    font-weight: bold;
+    outline: none;
+    letter-spacing: 0.02em;
+    margin-top: 0.9rem;
+    border: none;
+    padding: 1.2rem 2.4rem;
+    border-radius: 8px;
+  }
+
+  .onboardingImg {
+    width: 25%;
+    margin: 1rem 0rem;
   }
 
 
+  /* implementation section */
+  .implementationContainer {
+    margin: 3rem 10rem 1rem 10rem;
+  }
 
+  .implementationTitle {
+    padding-bottom: 1rem;
+    color: #e16e7e;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  .gifContainer h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e16e7e;
+    padding: 1rem 0 0.5rem 0;
+  }
+
+  .gifContainer p {
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+  .prototypeFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .protoFrame {
+    border: 1px solid #dedede;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: 700px;
+  }
+
+  .implementationContainer p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: #faeaed;
+    overflow-x: hidden;
+    padding: 1rem 3rem;
+    height: 100%;
+  }
+
+  .logo {
+    height: 45px;
+    width: 45px;
+    margin: 2px 0;
+  }
+
+  .projectTitle {
+    padding-top: 1.5rem;
+    color: #000;
+    font-weight: 800;
+    font-size: 2.4rem;
+    letter-spacing: 0.01em;
+  }
+
+  .projectText {
+    font-size: 1.2rem;
+    padding: .7rem 1rem 0 0;
+    color: #000;
+  }
+
+  .tags {
+    outline: none;
+    border: none;
+    padding: .8rem 1.3rem;
+    border-radius: 40px;
+    background: #e16e7e;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 1.5rem;
+  }  
+  .leftContainer {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  
+  .rightContainer {
+    width: 100%;
+  }
+  
+  .protoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .prototypeFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem;
+  }
+
+  .protoFrame {
+    border: 1px solid #dedede;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 40%;
+    height: 500px;
+  }
+
+  /* Projct Scope and Challenge */
+  /* Scope Section */
+
+  .challenge {
+    padding-top: 3rem;
+    background-color: #fff;
+  }
+
+  .challengeDiv {
+    margin: 1rem 4rem;
+  }
+
+  .challengeTitle {
+    color: #e16e7e;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  .challengeText {
+    padding: 0.5rem 0rem 0 0;
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  .imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .challengeImg {
+    margin: 3rem 0 2rem 0;
+    width: 100%;
+  }
+
+  .scopeTitle {
+    color: #e16e7e;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  .cardGroup {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 25%;
+    height: 200px;
+    border: 1px solid #d6d5d5;
+  }
+
+  .cardGroup img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .cardGroup h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .cardText {
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: .9rem;
+  }
+
+  .centerImg {
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Define Section */
+
+  .defineContainer {
+    margin: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .defineLeft {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .defineLeft ul {
+    font-size: 1.2rem;
+  }
+
+  .defineTitle {
+    padding-bottom: .5rem;
+    font-size: 2.2rem;
+  }
+
+  .defineText {
+    padding: 0.4rem 0rem 0 0;
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+
+  .defineRight {
+    width: 100%;
+  }
+
+  .personaImg {
+    margin: 2rem 1rem 2rem 0;
+    width: 100%;
+  }
+
+  /* Research Debrief */
+
+  .researchFindings {
+    margin: 2rem 4rem 1rem 4rem;
+  }
+
+  .researchFindingsTitle {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .researchCardGroup {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .researchCardGroup p {
+    font-size: 14px;
+  }
+
+  .researchCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem .5rem;
+  }
+
+  /* Ideate Section */
+
+  .ideateContainer {
+    margin: 2rem 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ideateLeft {
+    width: 100%;
+  }
+
+  .ideateTitle {
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .ideateText {
+    padding: 1.5rem 0;
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+
+  .ideateRight {
+    width: 100%;
+  }
+
+  .brainstormingImg {
+    width: 100%;
+    margin: 1rem 2rem 0 0;
+  }
+
+  /* Solution Section */
+  .solutionContainer {
+    background-color: #faeaed;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+
+  .solutionLeft,
+  .solutionRight {
+    margin: 3rem 5rem;
+  }
+
+  .solutionLeft {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0 5rem 0 0;
+
+  }
+
+  .solutionRight {
+    width: 100%;
+  }
+
+  .solutionRight img {
+    width: 70%;
+  }
+
+  .solutionTitle {
+    padding-bottom: 1.7rem;
+    color: #000;
+    font-size: 2.2rem;
+  }
+
+  .solutionText {
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 0 2rem 0 0;
+  }
+
+  /* Functional Specs */
+
+  .functionalSpecs {
+    margin: 2rem 5rem 1rem 5rem;
+  }
+
+  .functionalSpecs h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 1rem 0 1.5rem 0;
+  }
+
+  .functionalSpecs p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+
+  .specDiv {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+  }
+
+  .specImg {
+    width: 34%;
+    padding: 0 1rem;
+  }
+
+  /* Prototyping Section */
+
+  .prototyping {
+    background-color: #fcfcfc;
+  }
+
+  .prototypingContainer {
+    margin: 2rem 5rem 1rem 5rem;
+    padding: 5rem 0 1rem 0;
+  }
+
+  .prototypingTitle {
+    padding-bottom: 1rem;
+    color: #e16e7e;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  .prototypingText {
+    font-size: 1.2rem;
+  }
+
+  .resumeBtn {
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    letter-spacing: 0.02em;
+    margin-top: 1rem;
+    border: none;
+    padding: 1.2rem 2rem;
+    border-radius: 8px;
+  }
+
+  .onboardingImg {
+    width: 100%;
+    margin: 2rem 0rem;
+  }
+
+  /* implementation section */
+  .implementationContainer {
+    margin: 2rem 5rem 1rem 5rem;
+  }
+
+  .implementationTitle {
+    padding-bottom: 1rem;
+    color: #e16e7e;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  .gifContainer h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #e16e7e;
+    padding: 1rem 0 0.5rem 0;
+  }
+
+  .gifContainer p {
+    padding: 0 4rem;
+    font-size: 1.2rem;
+  }
+
+  .implementationContainer p {
+    font-size: 1.2rem;
+  }
 
 }

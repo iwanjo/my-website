@@ -1,14 +1,16 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import { Helmet } from "react-helmet";
 import styles from "./css/Sankofa.module.css";
 import ProjectsNavbar from "./ProjectsNavbar";
 import ScrollToTop from "react-scroll-to-top";
 import { Card } from "antd";
+import Footer from "../Footer";
 
 class Sankofa extends React.Component {
-  // componentDidMount() {
-  //   window.scrollTo(0, 0);
-  // }
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
     return (
@@ -16,7 +18,7 @@ class Sankofa extends React.Component {
         <ScrollToTop smooth color="#41a695" />
 
         <Helmet>
-          <title>Sankofa | Ian Wanjohi</title>
+          <title>Sankofa Case Study | Ian Wanjohi</title>
         </Helmet>
         <ProjectsNavbar />
 
@@ -29,7 +31,9 @@ class Sankofa extends React.Component {
                 Ghana properly dispose of and earn money from their secondhand
                 clothing
               </p>
-              <button className={styles.tags}>Lab Product</button>
+              <button className={styles.tags}>
+                Environmental Conservation
+              </button>
               &nbsp;&nbsp;&nbsp;&nbsp;
               <button className={styles.tags}>Mobile Application</button>
             </div>
@@ -252,15 +256,16 @@ class Sankofa extends React.Component {
                 </div>
 
                 <div className={styles.journeyMaps}>
-                  <strong>Journey Maps</strong>
+                  <h6>
+                    <strong>Journey Maps</strong>
+                  </h6>
 
                   <p>
                     <br></br>
                     The flow of clothes through the Ghanian markets from import
-                    to purchase by end-consumers involves numerous stakeholders
-                    and intermediaries. To fully understand the stakeholdr
-                    behaviour, we created a journey map to map out the clothes
-                    journey from import to landfill sites.
+                    to purchase by end-consumers involves numerous stakeholders. To fully understand the stakeholder behaviour, we created a
+                    journey map to map out the clothes journey from import to
+                    landfill sites.
                   </p>
 
                   <div className={styles.methodologyDiv}>
@@ -376,7 +381,7 @@ class Sankofa extends React.Component {
                 </div>
 
                 <h5 className={styles.researchTitle}>Creative Workshop</h5>
-                <p>
+                <p className={styles.designText}>
                   A creative workshop was held to share creative ideas and
                   brainstorm possible solutions to implement based on the
                   analysis and information synthesis. Three opportunity areas
@@ -428,7 +433,7 @@ class Sankofa extends React.Component {
 
           {/* Most Popular Solution */}
           <div className={styles.heroContainer}>
-            <div className={styles.leftPopularContainer}>
+            <div className={styles.leftContainer} id={styles.leftPopularContainer}>
               <h2 className={styles.popularTitle}>Most Popular Solution</h2>
               <p className={styles.projectText}>
                 Sankofa, a mobile application that uses geolocation to tell
@@ -492,30 +497,114 @@ class Sankofa extends React.Component {
             <br />
 
             <h5 className={styles.designTitle}>Sankofa Wireframes</h5>
-            <p>
-              After crafting Sankofa's functional specifications, we moved onto
-              the wireframing stage of the design process. Here are a couple of
-              wireframe shots
+            <p className={styles.functionalSpecText}>
+              After crafting Sankofa's functional specs, we moved onto
+              the wireframing stage of the design process. The wireframes below
+              showcase stage 2 of the onboarding screen, the home screen where
+              the user can filter between recycling companies, thrift shops and
+              charity homes, and the account creation screen
             </p>
           </div>
 
-          <div className={styles.wireframeImg}>
+          <div className={styles.wireframeDiv}>
             <img
-              src="../assets/sankofa-wireframes.png"
-              alt="Sankofa Wireframes - Onboarding, Home, Map"
+              src="../assets/wireframes/sankofa-wireframe1.png"
+              alt="Sankofa Home Page Wireframe"
               loading="eager"
               className={styles.wireframeImg}
+            />
 
+            <img
+              src="../assets/wireframes/sankofa-wireframe2.png"
+              alt="Sankofa Onboarding Page Wireframe"
+              loading="eager"
+              className={styles.wireframeImg}
+            />
+
+            <img
+              src="../assets/wireframes/sankofa-wireframe3.png"
+              alt="Sankofa Account Creation Wireframe"
+              loading="eager"
+              className={styles.wireframeImg}
             />
           </div>
 
           <div className={styles.designContainer}>
-            <p>The wireframes above showcase stage 2 of the onboarding screen, the home screen where the user can filter between recycling companies, thrift shops and charity homes, and a map view showing their location.</p>
             <br />
-            <h5 className={styles.designTitle}>High Fidelity Screens</h5>
+            <h5 className={styles.designTitle}>
+              Sankofa High Fidelity Wireframes
+            </h5>
+            <p className={styles.functionalSpecText}>
+              Below you can find some examples of the high-fidelity wireframes I
+              worked on to showcase some of the more functional aspects of how
+              the application will work. I have included the following:
+              <br />
+              <br />
+              <ul>
+                <li>
+                  <b>Map Page Wireframe:</b> Showing the user the nearest drop
+                  off points around them and how far away they are
+                </li>
+                <br />
 
+                <li>
+                  <b>Drop Off Point Information</b> Providing detailed
+                  information about a drop off point, and the type of clothes
+                  viable for drop off at the location.
+                </li>
+                <br />
+
+                <li>
+                  <b>Wallet Page Wireframe:</b> To show the user their earnings
+                  so far on Sankofa, latest transactions, and adding payment
+                  methods
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div className={styles.wireframeDiv}>
+            <img
+              src="../assets/wireframes/sankofa-high1.png"
+              alt="Sankofa Map Wireframe"
+              loading="eager"
+              className={styles.wireframeImg}
+            />
+
+            <img
+              src="../assets/wireframes/sankofa-high2.png"
+              alt="Sankofa More Information Wireframe"
+              loading="eager"
+              className={styles.wireframeImg}
+            />
+
+            <img
+              src="../assets/wireframes/sankofa-high3.png"
+              alt="Sankofa Wallet Wireframe"
+              loading="eager"
+              className={styles.wireframeImg}
+            />
           </div>
         </section>
+
+        <div className={styles.designContainer} id="section4">
+          <h5 className={styles.designTitle}>
+            Interact with Sankofa's Figma Prototype
+          </h5>
+          <p>
+            In the Figma Frame below, you can interact with Sankofa's Figma
+            prototype and explore all the screens and flows.
+          </p>
+          <div className={styles.prototypeFrame}>
+            <iframe
+              className={styles.protoFrame}
+              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ftk2nhJMfhlLRNNmZLEX7Ru%2FSankofa---Sasha's-Project%3Fnode-id%3D1033%253A11210%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1033%253A11210"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        
+        <Footer />
+
       </>
     );
   }

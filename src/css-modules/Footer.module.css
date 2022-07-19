@@ -222,3 +222,19 @@
         padding-bottom: 1.5rem;   
     }
 }
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .contact {
+    margin-top: 3rem;
+    background-image: linear-gradient(to right, #39c3f1, #26a3e2);
+  }
+  
+  .contactContainer {
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+}

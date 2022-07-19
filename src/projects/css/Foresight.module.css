@@ -13,7 +13,7 @@
 }
 
 .projectText {
-  font-size: 14px;
+  font-size: 15px;
   padding: 0.5rem 1rem 0 0;
   width: 90%;
   color: #000;
@@ -46,6 +46,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 0 1rem;
 }
 
 .challenge {
@@ -75,7 +76,7 @@
 .card4 {
   width: 99%;
   height: 200px;
-  border: 1px solid #d6d5d5;
+  border: 1px solid #fff;
 }
 
 .cardGroup img {
@@ -110,9 +111,31 @@
 }
 
 .problemText {
-  font-size: 14px;
+  font-size: 15px;
   padding-bottom: 1rem;
   text-align: justify;
+}
+
+.precisionDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  flex-direction: column;
+}
+
+.precisionDiv p{
+  padding-top: 2rem;
+}
+
+.precisionImg{
+  width: 100%;
+}
+
+.websiteIcon{
+  height: 40px;
+  width: 40px;
+  margin: 1rem 0;
 }
 
 .solutionContainer {
@@ -137,7 +160,7 @@
 .solutionText {
   font-size: 15px;
   text-align: center;
-  width: 82%;
+  padding: 0 2rem;
   color: #000;
 }
 
@@ -157,7 +180,8 @@
 }
 
 .designText {
-  font-size: 14px;
+  font-size: 15px;
+  text-align: justify;
 }
 
 .defineContainer {
@@ -180,7 +204,11 @@
 .defineText {
   padding: 0.5rem 1rem 0 0;
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
+}
+
+.defineLeft ul li{
+  font-size: 15px;
 }
 
 .defineRight {
@@ -188,6 +216,10 @@
 }
 
 .personaImg {
+  width: 100%;
+}
+
+.benchmarkImg{
   width: 100%;
 }
 
@@ -203,13 +235,16 @@
 }
 
 .researchText {
-  font-size: 14px;
+  font-size: 15px;
   padding-bottom: 1rem;
+  text-align: justify;
 }
 
 .researchCardGroup {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .researchCard {
@@ -217,6 +252,61 @@
   align-items: center;
   justify-content: center;
   margin: 1rem 0;
+}
+
+.ideationGroup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ideationGroup h5{
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.ideationCard{
+  margin: 1rem 0rem;
+}
+
+
+.ideationImg{
+  width: 100px;
+  height: 100px;
+}
+
+.hmwForesight{
+  width: 100%;
+}
+
+.featureImg{
+  width: auto;
+  height: 180px;
+}
+
+.designSystemImg{
+  width: 100%;
+}
+
+.centerDiv{
+  margin: 4rem 0;
+  flex-direction: column;
+}
+
+.centerDiv h4{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.designImg{
+  width: 100%;
+}
+
+.defineLeft ol li{
+  font-size: 15px;
 }
 
 .prototypingSection {
@@ -231,7 +321,7 @@
 }
 
 .prototypingText {
-  font-size: 14px;
+  font-size: 15px;
   text-align: justify;
 }
 
@@ -248,9 +338,6 @@
 
 /* implementation */
 
-.implementation {
-  background: #f1f9f9;
-}
 
 .implementationContainer {
   margin: 4rem 2rem;
@@ -269,101 +356,39 @@
   padding-bottom: 1rem;
 }
 
-.contact {
-  margin-top: 0rem;
-  background-image: linear-gradient(to right, #39c3f1, #26a3e2);
-}
-
-.contactContainer {
-  margin-left: 2.3rem;
+.gifContainer {
+  margin-top: 3rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
-.contactTitle {
-  font-size: 1.3rem;
-  letter-spacing: 0.03em;
-  color: #fff;
+.gifContainer h1 {
+  font-size: 24px;
   font-weight: bold;
-  padding: 2rem 0 1rem 0;
+  color: #21897e;
+  padding: 2rem 0 0.8rem 0;
 }
 
-.contactText{
-  font-size: 16px;
-  color: #fff;
-  margin-right: 2.3rem;
+.gifContainer p {
+  padding: 0.5rem 1.5rem 1rem 1.5rem;
+  font-size: 14px;
+  text-align: center;
 }
 
-.emailText {
-  font-size: 1.1rem;
-  color: #fff;
-  letter-spacing: 0.02em;
-}
-
-.socialCircles {
+.prototypeFrame {
   display: flex;
-  flex-direction: row;
-  padding: 0 0 2rem 0;
+  justify-content: center;
+  align-items: center;
 }
 
-.linkedinCircle {
-  background-color: #deecf3;
-  padding: 0.7rem;
-  height: 3.2rem;
-  width: 3.2rem;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.linkedinImage {
-  height: 1.25rem;
-  background: none;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.githubCircle {
-  background-color: #dbdbdb;
-  padding: 0.7rem;
-  height: 3.2rem;
-  width: 3.2rem;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.githubImage {
-  height: 1.5rem;
-  background: none;
-}
-
-.dribbbleCircle {
-  background-color: #fdecf2;
-  padding: 0.8rem;
-  height: 3.2rem;
-  width: 3.2rem;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.dribbbleImage {
-  height: 1.4rem;
-  background: none;
-}
-
-.socialMedia div {
-  margin: 0.4rem 1.1rem;
-}
-
-.copyRight {
-  margin-right: 2.3rem;
-  font-size: 0.85rem;
-  padding-bottom: 0.7rem;
-  color: #fff;
+.protoFrame {
+  margin-top: 2rem;
+  margin-bottom: 1.3rem;
+  border: 1px solid #dedede;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 700px;
 }
 
 @media screen and (min-width: 768px) {
@@ -378,9 +403,13 @@
   }
 
   .leftContainer {
-    margin-top: 10rem;
     margin-left: 5rem;
-    width: 45%;
+    margin-top: 10rem;
+    width: 50%;
+  }
+
+  .rightContainer {
+    width: 50%;
   }
 
   .projectTitle {
@@ -413,13 +442,20 @@
     border: 1px solid #21897e;
   }
 
-  .rightContainer {
-    margin-top: 5%;
-    width: 55%;
-  }
-
   .protoImg {
     width: 100%;
+    padding: 2rem 0;
+  }
+
+  .precisionDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .precisionImg{
+    width: 70%;
   }
 
   /* Project Scope */
@@ -452,7 +488,7 @@
     margin: 2rem 0;
     width: 24%;
     height: 300px;
-    border: 1px solid #f5f2f2;
+    border: 1px solid #fff;
     border-radius: 6px;
   }
 
@@ -507,6 +543,12 @@
     width: 100%;
     height: 400px;
     overflow: hidden;
+  }
+
+  .websiteIcon{
+    height: 52px;
+    width: 52px;
+    margin: .8rem 0;
   }
 
   .solutionTitle {
@@ -569,6 +611,10 @@
     width: 100%;
   }
 
+  .benchmarkImg{
+    width: 60%;
+  }
+
   .researchContainer {
     margin: 1rem 10rem 1rem 10rem;
   }
@@ -594,6 +640,55 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .ideationGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ideationGroup h5{
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  .ideationCard{
+    margin: 2rem 5rem;
+  }
+  
+  
+  .ideationImg{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .hmwForesight{
+    width: 100%;
+  }
+
+  .designSystemImg{
+    width: 100%;
+  }
+
+
+
+  .centerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centerDiv h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .designImg{
+    width: 100%;
   }
 
   .prototypingSection {
@@ -624,12 +719,9 @@
 
   /* implementation */
 
-  .implementation {
-    background: #f1f9f9;
-  }
 
   .implementationContainer {
-    margin: 4rem 10rem 0rem 10rem;
+    margin: 2rem 10rem 0rem 10rem;
     padding: 4rem 0;
   }
 
@@ -645,115 +737,259 @@
     padding-bottom: 1rem;
   }
 
-  .contact {
-    background-color: #00a5f7;
+  .prototypeFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .contactContainer {
-    margin: 0rem 10rem 1rem 10rem;
+  .protoFrame {
+    border: 1px solid #dedede;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 1290px) and (min-width: 700px) {
+  .heroContainer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-top: 1rem;
+    overflow-x: hidden;
+    padding: 1rem 3rem;
+    height: 100%;
   }
 
-  .contactTitle {
-    font-size: 2rem;
-    letter-spacing: 0.03em;
-    color: rgb(255, 251, 251);
+  .projectTitle {
+    padding-top: 1.5rem;
+    color: #000;
+    font-weight: 800;
+    font-size: 2.4rem;
+    letter-spacing: 0.01em;
+  }
+
+  .projectText {
+    font-size: 1.2rem;
+    padding: .7rem 1rem 0 0;
+    color: #000;
+  }
+
+  .leftContainer {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  
+  .rightContainer {
+    width: 100%;
+  }
+  
+  .protoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .prototypeFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem;
+  }
+
+  .protoFrame {
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+    border: 1px solid #dedede;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1300px;
+    width: 100%
+  }
+
+  /* Projct Scope and Challenge */
+  /* Scope Section */
+
+  .challenge {
+    padding-top: 3rem;
+    background-color: #fff;
+  }
+
+  .challengeDiv {
+    margin: 1rem 4rem;
+  }
+
+  .challengeTitle {
     font-weight: bold;
-    padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
+    font-size: 1.8rem;
   }
 
-  .contactText {
-    padding: 0.8rem 0;
-    color: #fff;
-    font-size: 16px;
+  .challengeText {
+    padding: 0.5rem 0rem 0 0;
+    font-size: 1.2rem;
+    text-align: justify;
   }
 
-  .emailText {
-    font-size: 16px;
-    color: #fff;
+  .imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .challengeImg {
+    margin: 3rem 0 2rem 0;
+    width: 100%;
+  }
+
+  .scopeTitle {
     font-weight: bold;
-    text-decoration: underline;
+    font-size: 1.8rem;
   }
 
-  .socialCircles {
+  .cardGroup {
+    margin: 1.5rem 0;
     display: flex;
     flex-direction: row;
-    padding: 0 0 2rem 0;
   }
 
-  .linkedinCircle {
-    background-color: #fff;
-    padding: 1.3rem;
-    height: 4.3rem;
-    width: 4.3rem;
-    border-radius: 50%;
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 25%;
+    height: 200px;
+  }
+
+  .cardGroup img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .cardGroup h5 {
     text-align: center;
-    vertical-align: middle;
-  }
-
-  .linkedinCircle:hover {
-    background-color: rgb(240, 240, 240);
-    cursor: pointer;
-  }
-
-  .linkedinImage {
-    height: 1.5rem;
-    background: none;
-    text-align: center;
-    vertical-align: middle;
-  }
-
-  .githubCircle {
-    background-color: #fff;
-    padding: 1.15rem;
-    height: 4.3rem;
-    width: 4.3rem;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-  }
-
-  .githubCircle:hover {
-    background-color: rgb(240, 240, 240);
-    cursor: pointer;
-  }
-
-  .githubImage {
-    height: 2rem;
-    background: none;
-  }
-
-  .dribbbleCircle {
-    background-color: #fff;
-    padding: 1.15rem;
-    height: 4.3rem;
-    width: 4.3rem;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-  }
-
-  .dribbbleCircle:hover {
-    background-color: rgb(240, 240, 240);
-    cursor: pointer;
-  }
-
-  .dribbbleImage {
-    height: 2rem;
-    background: none;
-  }
-
-  .socialMedia div {
-    margin: 0.4rem 1.1rem;
-  }
-
-  .copyRight {
-    font-size: 14px;
     font-weight: bold;
-    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .cardText {
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: .9rem;
+  }
+
+  .centerImg {
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .precisionImg{
+    width: 100%;
+  }
+
+  .precisionDiv p{
+    font-size: 18px;
+  }
+
+  /* Define Section */
+
+  .defineContainer, .designContainer, .researchContainer, .implementationContainer {
+    margin: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .defineLeft {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .defineLeft ul {
+    font-size: 1.2rem;
+  }
+
+  .defineTitle {
+    padding-bottom: .5rem;
+    font-size: 2.2rem;
+  }
+
+  .defineText, .designText {
+    padding: 0.4rem 0rem 0 0;
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+
+  .defineLeft ul li{
+    font-size: 1.2rem;
+  }
+
+  .defineRight {
+    width: 100%;
+  }
+
+  .personaImg {
+    margin: 2rem 1rem 2rem 0;
+    width: 100%;
+  }
+
+  .benchmarkImg{
+    width: 100%;
+  }
+
+  .researchText, .prototypingText{
+    font-size: 1.2rem;
+  }
+
+  .researchCardGroup {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .researchCardGroup p {
+    font-size: 14px;
+  }
+
+  .researchCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0.3rem;
+  }
+
+  .ideationGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ideationGroup h5{
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .ideationImg{
+    height: 120px;
+    width: 120px;
+  }
+  
+  .ideationCard{
+    margin: 1.4rem 0rem;
+  }
+
+  .featureImg{
+    width: auto;
+    height: 300px;
+  }
+
+  .designSystemImg{
+    width: 100%;
+  }
+
+  .defineLeft ol li{
+    font-size: 1.2rem;
   }
 }

@@ -12,13 +12,14 @@ class DiscoverKenya extends React.Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
+
   render() {
     return (
       <>
         <ScrollToTop smooth color="#E16E7E" />
 
         <Helmet>
-          <title>Discover Kenya | Ian Wanjohi</title>
+          <title>Discover Kenya Case Study | Ian Wanjohi</title>
         </Helmet>
         <ProjectsNavbar />
 
@@ -32,13 +33,15 @@ class DiscoverKenya extends React.Component {
               />
               <h1 className={styles.projectTitle}>Discover Kenya</h1>
               <p className={styles.projectText}>
-                Connecting users to beautiful photos of Kenya, while creating a
-                community of visual contributors. A hub for individuals and
+                Creating a community of visual contributors while connecting
+                users to beautiful images of Kenya. A hub for individuals and
                 businesses to share Kenya's magic.
               </p>
-              <button className={styles.tags}>In Development</button>
-              &nbsp;&nbsp;&nbsp;&nbsp;
-              <button className={styles.tags}>Mobile Application</button>
+              <div className={styles.tagGroup}>
+                <button className={styles.tags}>Travel and Tourism</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <button className={styles.tags}>Mobile Application</button>
+              </div>
             </div>
 
             <div className={styles.rightContainer}>
@@ -69,7 +72,7 @@ class DiscoverKenya extends React.Component {
                   <img src="../assets/tools.png" alt="Tools Logo" />
                 </div>
                 <h5>Tools Used</h5>
-                <p className={styles.cardText}>Figma & Flutter</p>
+                <p className={styles.cardText}>Figma, Miro & Flutter</p>
               </div>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <div className={styles.card3}>
@@ -77,7 +80,7 @@ class DiscoverKenya extends React.Component {
                   <img src="../assets/project.png" alt="Project Logo" />
                 </div>
                 <h5>Project Type</h5>
-                <p className={styles.cardText}>Personal Project</p>
+                <p className={styles.cardText}>Case Study</p>
               </div>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <div className={styles.card4}>
@@ -85,28 +88,26 @@ class DiscoverKenya extends React.Component {
                   <img src="../assets/calendar.png" alt="Calendar Logo" />
                 </div>
                 <h5>Duration</h5>
-                <p className={styles.cardText}>August 2021 - September 2021</p>
+                <p className={styles.cardText}>June 2021 - September 2021</p>
               </div>
             </div>
             <h1 className={styles.challengeTitle}>The Challenge</h1>
             <p className={styles.challengeText}>
-              As a result of the COVID-19 virus and the various safety measures
-              implemented, numerous areas of economic activity were dealt a
-              severe blow. At the height of the pandemic in the spring and
-              summer of 2020, many countries imposed bans on international
-              travel, lockdowns, physical distancing and curfews, which had
-              harsh economic consequences. One area that stood out to me is the
-              tourism industry in Kenya. The country is one of the leading
-              tourist destinations in Africa, offering a wide range of
-              attractions such as pristine beaches, safaris, deserts and more.
+              Numerous economic sectors suffered serious setbacks as a result of
+              the COVID-19 virus and the different safety precautions put in
+              place. Many nations enacted travel restrictions, lockdowns,
+              physical separation, and curfews during the peak of the epidemic
+              in the spring and summer of 2020, which had severe economic
+              repercussions.
               <br />
               <br />
-              Due to the pandemic prevention measures and their far-reaching
-              consequences, the industry suffered massive job losses, closure of
-              local travel and tourism agencies, and revenue losses. Tourism
-              arrivals in Kenya dropped by more than 70% in Kenya during the
-              first few months of 2020, and the country lost more than $1
-              Billion in revenue from annual tourism earnings.
+              The travel and tourist sector saw significant job losses, the
+              closure of local travel and tourism agencies, and revenue losses
+              as a result of the pandemic prevention efforts and their
+              wide-ranging effects. The number of tourists visiting Kenya
+              decreased by more than 70% in the first few months of 2020,
+              costing the nation more than $1 billion in lost annual
+              tourism-related revenue.
             </p>
 
             <div className={styles.imgDiv}>
@@ -137,7 +138,7 @@ class DiscoverKenya extends React.Component {
         <div className={styles.defineContainer}>
           <div className={styles.defineLeft}>
             <h2 className={styles.defineTitle}>
-              <strong>1. Define</strong>
+              <strong>Define</strong>
             </h2>
             <p className={styles.defineText}>
               To better understand my assumptions, validate the research goal,
@@ -293,7 +294,7 @@ class DiscoverKenya extends React.Component {
         <div className={styles.ideateContainer}>
           <div className={styles.ideateLeft}>
             <h2 className={styles.ideateTitle}>
-              <strong>2. Ideation</strong>
+              <strong>Ideation</strong>
             </h2>
             <img
               className={styles.brainstormingImg}
@@ -396,13 +397,13 @@ class DiscoverKenya extends React.Component {
               className={styles.specImg}
               alt="Functional Specification"
             />{" "}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
             <img
               src="../assets/BusinessAccount.png"
               className={styles.specImg}
               alt="Functional Specification"
             />{" "}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
             <img
               src="../assets/SearchPhotos.png"
               className={styles.specImg}
@@ -416,13 +417,13 @@ class DiscoverKenya extends React.Component {
               className={styles.specImg}
               alt="Functional Specification"
             />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
             <img
               src="../assets/DownloadPhotos.png"
               className={styles.specImg}
               alt="Functional Specification"
             />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
             <img
               src="../assets/Profile.png"
               className={styles.specImg}
@@ -433,7 +434,7 @@ class DiscoverKenya extends React.Component {
 
         <section className={styles.prototyping}>
           <div className={styles.prototypingContainer}>
-            <h1 className={styles.prototypingTitle}>3. Prototyping</h1>
+            <h1 className={styles.prototypingTitle}>Prototyping</h1>
 
             <p className={styles.prototypingText}>
               For this section, I created wireframes and high-fidelity screens
@@ -476,30 +477,25 @@ class DiscoverKenya extends React.Component {
             </div>
           </div>
 
-
           <div className={styles.gifContainer}>
             <h1>Discover Kenya Prototype</h1>
             <p>
-              Below is an animated GIF of Discover Kenya's prototype and some of
-              the various flows the user goes through when they use our app. You can also interact with the clickable Figma Prototype below
+              You can interact with Discover Kenya's Figma Prototype below, and
+              see all of the different high-fidelity wireframes that were
+              created
             </p>
-            <img
-              src="../assets/interface.gif"
-              alt="Discover Kenya Clickable Prototype"
-              className={styles.interfaceGif}
-            />
+
             <iframe
               className={styles.protoFrame}
-              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXeWTTHvzGUp3STWwnCWb8j%2FDiscover-Kenya-Case-Study%3Fnode-id%3D803%253A1856%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D798%253A2435" allowFullScreen
-              allowfullscreen
+              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXeWTTHvzGUp3STWwnCWb8j%2FDiscover-Kenya-Case-Study%3Fnode-id%3D803%253A1856%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D798%253A2435"
+              allowFullScreen
             ></iframe>
           </div>
-
         </section>
 
         <section className={styles.implementation} id="section4">
           <div className={styles.implementationContainer}>
-            <h1 className={styles.implementationTitle}>4. Implementation</h1>
+            <h1 className={styles.implementationTitle}>Implementation</h1>
             <p>
               Discover Kenya's implementation in Flutter is coming soon. Check
               out the GitHub repo below for updates.

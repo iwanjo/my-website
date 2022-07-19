@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+#light {
+  background-color: #f7f7f7;
 }
 
-.App-logo {
-  height: 40vmin;
-  animation: App-logo-spin infinite 20s linear
+#dark {
+  background-color: #0a1d2c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.toggleBtn {
+  margin-top: .4rem;
+}
+
+#light #main h1 {
+  color: #2b2a2a;
+}
+
+#dark #main h1 {
+  color: rgb(235, 233, 233);
+}
+
+#dark #main h2 {
+  color: rgb(226, 222, 222);
+}
+
+#dark #main h3 {
+  color: rgb(226, 222, 222);
+}
+
+#dark #main h4 {
+  color: rgb(226, 222, 222);
+}
+
+#dark #main h5 {
+  color: rgb(226, 222, 222);
+}
+#dark #main p {
+  color: rgb(226, 220, 220);
+}
+
+#dark p  {
+ color: white;
+}
+
+#dark p:hover{
+  color: #52b8e4!important;
+  transition: .25s ease-in-out;
+}
+
+#dark .navbar-toggler{
+  background-color: white;
+}
+
+#active{
+  color: #52b8e4;
+  font-weight: bold;
+}
+
+#dark #active{
+  color: #f52d5f;
+}
+
+@media only screen and (min-width: 2050px) {
+  .toggleBtn {
+    margin-top: .8rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media only screen and (max-width: 1000px) {
+  .toggleBtn {
+    margin-top: 1rem;
+    margin-left: .7rem;
+    padding-bottom: 1rem;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .toggleBtn {
+    margin-top: 1.2rem;
+    margin-left: 0rem;
+    padding-bottom: 1rem;
+  }
+}
+
